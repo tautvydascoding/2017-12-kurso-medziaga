@@ -25,3 +25,4 @@ emmet
 
 jQuery-snippets
 jquery
+emmet
