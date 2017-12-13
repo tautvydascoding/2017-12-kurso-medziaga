@@ -1,0 +1,52 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+/*------------------*/
+h1 {
+    color: red;
+    text-align: center;
+}
+h2 {
+    /* tevui uzdeti position:relative */
+    position: absolute;
+    /* kiek nuo kaires nutoles*/
+    right:  10px;
+    top: 0;
+}
+article {
+    position: relative;
+}
+
+
+/*selector {
+    varible: value;
+}*/
+article {
+    /* elementai vienoje eiluteje*/
+    width: 30%;
+    float: left;
+
+    border: solid 1px #000;
+    background-color: #a1a1a1;
+    margin-left: 2.5%;
+    /* atstumimas zemyn */
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+article:last-of-type {
+    margin-right: 2.5%;
+}
+/* isjungia "float" */
+.clear-fix {
+    clear: both;
+}
+
+.rodyti-eiluteje {
+    display: inline-block;
+    width: 30%;
+}
+body {
+    margin: 0;
+}
