@@ -2,3 +2,12 @@
 
 
 
+
+        <form class="" action="index.html" method="post">
+[0-9] - koki galimi skaiciai
+{6}   - 6 skaiciai
+            <input id="telNo" name="telNo" type="tel" required  pattern="370[0-9]{6}">
+            <input type="submit" name="" value="">
+        </form>
+
+
