@@ -1,0 +1,47 @@
+h1 {
+    color: blue;
+}
+
+.fonas1    {
+    background-color: #B2B2B2;
+}
+.fonas2    {
+    background-color: orange;
+}
+.fonas3    {
+    background-color: red;
+}
+.didelis-tekstas {
+     font-size: 60px;
+     /* px  em,rem      */
+}
+.plotis-100 {
+    width: 100px;
+}
+div h2 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 20px;
+}
+body div h2 b {
+    color: #267dff;
+}
+#logotipas {
+    width: 200px;
+    height: 200px;
+    /* 0 iki 1 */
+    opacity: 0.2;
+}
+
+/* komentaras
+  komentaras
+  komentaras
+  */
+
+
+
+
+
+
+//

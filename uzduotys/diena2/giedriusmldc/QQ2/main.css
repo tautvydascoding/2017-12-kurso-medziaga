@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.container {
+        display:flex;
+        justify-content: space-between;
+    }
+div {
+    display: flex;
+    flex-direction: row:ltr;
+}
+
+.q  {
+    background-color: red;
+    display: block;
+    width: 30%;
+    border: 2px solid blue;
+    position: relative;
+}
+
+.w {
+    text-align-last: right;
+    display: block;
+    border: 2px solid blue;
+position: absolute;
+
+
+}

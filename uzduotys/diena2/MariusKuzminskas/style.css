@@ -1,0 +1,74 @@
+* {
+    font-family: sans-serif;
+}
+
+#chicken {
+    background-color: orange;
+}
+
+#beef {
+    color: white;
+    background-color: red;
+}
+
+#sushi {
+    background-color: yellow;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    border: 3px solid black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 2rem;
+}
+
+div>p {
+    padding-top: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    display: block;
+}
+
+.card {
+    position: relative;
+    border: 3px solid blue;
+    background-color: gray;
+    /* flex: 1 100%; */
+}
+
+.container div {
+    margin: 10px;
+}
+
+/* CSS FLEX METHOT*********************************** */
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-direction: row; */
+}
+/* Mobile first **********************************  */
+.container>* {
+    flex: 1 100%;
+}
+/* Tablet secocnd ******************************** */
+@media all and (min-width: 600px) {
+    .two {
+        flex-basis: 40%;
+    }
+}
+/* Desktop and laptop screens ************************* */
+@media all and (min-width: 800px) {
+    .card {
+        flex-basis: 30%;
+    }
+}

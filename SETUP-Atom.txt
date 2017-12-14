@@ -19,8 +19,10 @@ idea
 lorem
 ctrl + rodykles
 ctrl + d - dublicate row's
+emmet
  
 
 
 jQuery-snippets
 jquery
+emmet
