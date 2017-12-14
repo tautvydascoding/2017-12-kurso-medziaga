@@ -1,0 +1,61 @@
+* {box-sizing: border-box}
+/*įskaičįskaičiuoja remeliu px į bendra plotį*/
+
+h1 {color: black;
+    text-align: center;}
+
+h2 {
+    /*tėvui uždėti position:realitive*/
+    position: absolute;
+    right: 10px;
+    top:0;
+    border: solid 1px #000;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    }
+
+.rozinis-ketrukampis {
+        border: solid 1px #000;
+        background: #D59898;
+    }
+.rudas-keturkampis {
+        border: solid 1px #000;
+        background: #C14543;
+        color: white;
+    }
+.smelinis-keturkampis {
+        border: solid 1px #000;
+        background: #E5D198;
+    }
+
+
+
+article {
+    position: relative;}
+
+article {
+    /*elementų išdėstymas vienoje eilutėje*/
+    width: 30%;
+    float: left;
+
+    border: solid 1px #000;
+    background: #a1a1a1;
+    margin-left: 2.5%;
+    /*atstumimas žeyn*/
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+
+article:last-of-type {margin-left: 2.5%}
+
+.clear-fix {
+    clear:both;}
+
+.rodyti-eiluteje {
+    display: inline-block;
+    width: 30%}
+
+
+body {margin: 0}

@@ -1,0 +1,31 @@
+h1{color: blue;}
+.fonas1 {background-color: #b2b2b2;}
+.fonas2 {background-color: orange;}
+.fonas3 {background-color: red;}
+.didelis-tekstas {font-size: 60px;}
+/* galimi matavimo dydžiai px em, rem      paima iš tėvo*/
+.plotis-100 {width: 100px}
+div h2 {font-size: 40px;}
+h2 {font-size: 20px;}
+body div h2 b {color: green;}
+#logotipas {
+    width: 200px;
+    height: 200px;
+    /*  nuo 0 iki 1*/
+    opacity: 0.2;
+    /*0.2  tai 2%*/
+            }
+#logotipas2 {
+    width: 200px;
+    height: 200px;
+    /*  nuo 0 iki 1*/
+    opacity: 0.2;
+    /*0.2  tai 2%*/
+            }
+#logotipas3 {
+    width: 200px;
+    height: 200px;
+    /*  nuo 0 iki 1*/
+    opacity: 0.2;
+    /*0.2  tai 2%*/
+            }
