@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+
+}
+.fonas1 {
+    background-color: #123;
+}
+.fonas2 {
+    background-color: orange;
+}
+.fonas3 {
+    background-color: yellow;
+}
+
+.big-text {
+    font-size: 60px;
+}
+.plotis-100 {
+    width: 100px;
+}
