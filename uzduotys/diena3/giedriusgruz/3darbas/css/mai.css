@@ -1,0 +1,49 @@
+* {box-sizing: border-box;}
+/* REMELIU NUEMIMAS, KAD NEKRAIPYTU VAIZDO*/
+h1 {color: red;
+     text-align: center;
+}
+
+h2 {
+    /*tevui uzdeti
+    position:relative */
+    position: absolute;
+    /* kiek nutoles nuo kaires */
+    right: 0px;
+    top: 0;
+    margin-top: 0;
+    border: solid 1px #000;
+    background-color: yellow;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+article {position: relative;}
+article { float: left;
+    /* kad elementai issidestytu vienoje eiluteje */
+     width: 30%;
+border: solid 1px #000;
+background-color: #A1A1A1;
+margin-left: 2.5%;
+padding-top: 30px;
+/* teksto atstumimas zemyn */
+padding-left: 15px;
+padding-right: 15px;
+}
+article:last-of-type
+{margin-right: 2.5%}
+
+.clear-fix { clear: both;}
+.rodyti-eiluteje {
+    display: inline-block;
+    width: 30%;
+}
+body {
+    margin: 0;}
+
+#Chiken {
+    background-color: green;
+}
+#Sushi {
+    background-color: rgba(151, 8, 175, 0.98);
+    color: white;
+}
