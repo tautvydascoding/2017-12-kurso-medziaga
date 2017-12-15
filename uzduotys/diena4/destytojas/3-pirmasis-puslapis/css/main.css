@@ -1,36 +1,124 @@
 * {
-    /* iskaiciuoja remelius i elemento ploti */
+    /* iskaiciuoja remelius i elemento ploti  */
     box-sizing: border-box;
 }
 /*------------------*/
-h1 {
-    color: red;
+h1{
+    color: black;
     text-align: center;
-}
-html {
-    background-color: #a1a1a1;
-}
-body {
-    /* elemento centravimas teve */
-    /* ! reik plocio */
-    width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-}
-header {
-    background-color: #FF80FF;
-    height: 80px; /* 5vh = 5% ekrano/tevo */
-}
-/* -----menu---- */
-nav {
-    background-color: orange;
-    width: 60%;
-}
-nav li {
-    display: inline-block;
-    width: 24%;
-    text-align: center;
-}
-ul {
-    padding-left: 0;
+    }
+    h1,h2{
+font-family: 'Indie Flower', cursive;
+    }
+    html {
+        background-color: #a1a1a1;
+    }
+    body {
+        /* elemento centravimas teve */
+        /* ! reik plocio */
+        width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+        background-color: #FF80FF;
+        height: 80px; /* 5vh = 5% ekrano/tevo */
+    }
+    /* -----menu---- */
+    nav {
+
+        width: 60%;
+        padding-top: 8px;
+        display: inline-block;
+        }
+    nav li {
+        display: inline-block;
+        width: 24%;
+        text-align: center;
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+    nav ul li a{
+        color: black;
+        text-decoration:none;
+        font-family: 'Indie Flower', cursive;
+    }
+    ul {
+        padding-left: 0;
+    }
+    /* end meniu */
+
+    #paieska{
+        display: inline-block;
+        width: 39%;
+        margin-left: -4px;
+        margin-top: -4px;
+
+    }
+    #paieska input{
+        height: 30px;
+        border: none;
+        width: 70%;
+
+    }
+    button{
+        /* padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px vienas budas*/
+        padding: 8px 20px 6px;
+        color: #fff;
+        background-color: #000;
+        border: none;
+        margin-left: 20px;
+    }
+    /* pagrindine puslapio dalis */
+    main{
+        background-color: #a1a1a1;
+        width: 100%;
+        display: inline-block;
+        overflow: hidden;
+        padding-top: 2%;
+    }
+    .article{
+        width: 75%;
+        float: left;
+        background-color: white;
+        padding-bottom: 2%;
+
+
+    }
+    .ruzavasfonas{
+        width: 23%;
+        background-color: #FF80FF;
+        float:left;
+        margin-left: 2%;
+        padding-bottom: 9999px;
+        margin-bottom: -9999px;
+
+
+
+    }
+    .clear{
+        clear: both;
+    }
+    aside ul{
+        padding-left:30px;
+    }
+    .apacia{
+        width: 100%;
+        background-color: white;
+        height: 80px;
+    }
+    .apacia p {
+        padding-top: 30px;
+
+
+
+
+
+
+
+
+
 }
