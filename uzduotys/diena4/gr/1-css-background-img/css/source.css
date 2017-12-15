@@ -1,0 +1,16 @@
+body {
+    color: blue;
+    background-image: url('../img/1.jpg');
+    background-size: 100px 300px;
+    background-repeat: no-repeat;
+
+
+
+}
+h2:hover {
+    background-color: red;
+
+}
+h2:active {
+    background-color: brown;
+}
