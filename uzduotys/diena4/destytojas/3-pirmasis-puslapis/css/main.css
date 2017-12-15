@@ -3,6 +3,16 @@
     box-sizing: border-box;
 }
 /*------------------*/
+/* custome font idedame */
+/* @font-face {
+    font-family: Bungee;
+    src: url('./font/Bungee-Regular.ttf');
+} */
+h1,
+h2,
+h3 {
+    font-family: 'Bungee', cursive;
+}
 h1 {
     color: red;
     text-align: center;
@@ -74,13 +84,32 @@ button {
 section {
     width: 75%;
     background-color: #fff;
+    padding: 40px 20px 30px 20px;
 }
 aside {
     width: 23%;
+    margin-left: 2%;
+    /* automatinis aukscio apskaiciavimas */
+    /* tevui - uzdeti "overflow: hidden" */
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
 }
-.float-kaire { 
+.float-kaire {
     float: left;
 }
-
-
+.clear-fix {
+    clear: both;
+}
+main {
+    /* automatinem auksciui reikalingas */
+    overflow: hidden;
+    margin-top: 2%;
+}
+aside ul li {
+    margin-left: 40px;
+}
 /*  */
+footer {
+    width: 150px;
+    background-color: white;
+}
