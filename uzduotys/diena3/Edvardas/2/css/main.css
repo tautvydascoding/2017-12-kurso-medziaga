@@ -53,7 +53,7 @@ body{
     background-color: blue;
     margin-top: 0px;
     padding-right: 15px;
-    padding-left: 15px;'
+    padding-left: 15px;
 
 }
 .fonas2{
@@ -71,5 +71,47 @@ body{
     margin-top: 0px;
     padding-right: 15px;
     padding-left: 15px;
+
+}
+/* for tablet */
+/*  max-width: 768px-> nuo 0 iki 768px ekrano plocio*/
+@media (max-width: 768px) {
+    .pirmas-straipsnis{
+        width: 45%;
+        margin-left: 3.33%
+    }
+    .antras-straipsnis{
+            width: 45%;
+            margin-left: 3.33%
+        }
+    .trecias-straipsnis{
+    width: 93.3%;
+    margin-left: 3.33%;
+    margin-top: 30px;
+
+    }
+    }
+    /* for mobile */
+    @media (max-width: 425px) {
+        /* kitas budas panaudoti pasikartojinti veiksma */
+        .pirmas-straipsnis,
+        .antras-straipsnis{
+                width: 93.3%;
+                margin-left: 3.33%;
+                margin-top: 30px;
+
+            }
+        .trecias-straipsnis{
+        width: 93.3%;
+        margin-left: 3.33%;
+        margin-top: 30px;
+
+        }
+        }
+
+
+
+
+
 
 }
