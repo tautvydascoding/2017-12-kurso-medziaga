@@ -12,7 +12,7 @@ h2 {
     position: absolute;
     /* kiek nuo kaires nutoles*/
     right:  10px;
-    top: 70;
+    top: 0;
 }
 article {
     position: relative;
@@ -49,4 +49,31 @@ article:last-of-type {
 }
 body {
     margin: 0;
+}
+/* plansetems programavimas */
+@media (max-width: 768px) {
+    .pirmas-straipsnis {
+    width: 45%;
+    margin-left: 3.333%;
+    }
+    .antras-straipsnis {
+        width: 45%;
+        margin-left: 3.333%;
+    }
+    .trecias-straipsnis {
+    width: 93.3%;
+    margin-left: 3.333%;
+    margin-top: 25px;
+    }
+    @media (max-width: 425px)
+     {
+    .pirmas-straipsnis,
+    .antras-straipsnis,
+    .trecias-straipsnis  
+     {
+    width: 93.3%;
+    margin-top: 20px;
+    }
+    }
+
 }

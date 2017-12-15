@@ -1,0 +1,25 @@
+.navigacija {
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: black;
+}
+
+/*Spalvinam ********************************/
+header {
+  background-color: rgb(60, 87, 136);
+}
+nav {
+  background-color: rgb(35, 41, 51);
+}
+article {
+  background-color: rgb(65, 113, 90);
+}
+aside {
+  background-color: rgb(236, 177, 99);
+}
+footer {
+  background-color: rgb(93, 96, 99);
+
+}

@@ -1,0 +1,34 @@
+div {
+    /* border: 1px solid red; */
+}
+
+.navigacija {
+    /* position: fixed; */
+    height: 100%;
+    /* left: 0;
+    top: 0;
+    background-color: black; */
+
+}
+
+/*Spalvinam ********************************/
+header {
+  background-color: rgb(60, 87, 136);
+  height: 10vh;
+}
+nav {
+  background-color: rgb(35, 41, 51);
+  height: 80vh;
+  color: white;
+}
+article {
+  background-color: rgb(65, 113, 90);
+  height: 70vh;
+}
+aside {
+  background-color: rgb(236, 177, 99);
+}
+footer {
+  background-color: rgb(93, 96, 99);
+  height: 10vh;
+}
