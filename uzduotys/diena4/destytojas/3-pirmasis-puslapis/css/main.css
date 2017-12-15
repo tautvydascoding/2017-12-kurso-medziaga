@@ -25,12 +25,46 @@ header {
 nav {
     background-color: orange;
     width: 60%;
+    display: inline-block;
+    padding-top: 8px;
 }
 nav li {
     display: inline-block;
     width: 24%;
     text-align: center;
+    font-size: 30px;
+    text-transform:capitalize;
 }
 ul {
     padding-left: 0;
 }
+/* ----END-menu---- */
+#paieska {
+    background-color: red;
+    display: inline-block;
+    width: 40%;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+#paieska input {
+    height: 24px;
+    border: none;
+    width: 70%;
+}
+button {
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    /* arba */
+    /* padding: 20px; */
+    /* arba */
+    padding: 8px 20px 8px 20px;
+    /* arba */
+    /* padding: 1px 20px 50px; */
+}
+
+
+
+
+/*  */
