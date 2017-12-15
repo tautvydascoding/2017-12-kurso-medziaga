@@ -1,0 +1,18 @@
+h2 {
+  color: blue;
+  background-image: url("../img/header.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-image: noreapea */
+  width: 500px;
+
+  height: 500px;
+}
+
+.hover:hover {
+  background-color: orange;
+}
+
+.hover:active { 
+  background-color: rgb(223, 123, 198);
+}
