@@ -1,0 +1,103 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+/*------------------*/
+h1 {
+    color: red;
+    text-align: center;
+    font-family: 'Itim', cursive;
+}
+html {
+    background-color: #a1a1a1;
+}
+body {
+    /* elemento centravimas teve */
+    /* ! reik plocio */
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: #FF80FF;
+    height: 80px; /* 5vh = 5% ekrano/tevo */
+}
+/* -----menu---- */
+nav {
+    /* background-color: orange; */
+    width: 60%;
+    padding-top: 8px;
+    display: inline-block;
+
+}
+nav li {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Itim', cursive;
+}
+ul {
+    padding-left: 0;
+}
+
+/* IDEA:      END MENIU */
+
+#paieska {
+    /* background-color: red; */
+    display: inline-block;
+    width: 39%;
+    margin-left: -3px;
+    margin-top: -10px;
+}
+
+#paieska input {
+    height: 24px;
+    width: 70%;
+}
+
+#paieska button {
+    color: #fff;
+    padding: 8px 20px;
+    background-color: #000;
+    border: none;
+}
+
+
+/*   Pagrindine dalis   */
+
+.fonas-ruzavas {
+    background-color: #F28133;
+}
+
+section {
+    width: 75%;
+    background-color: #fff;
+    padding: 40px 20px;
+
+}
+
+aside {
+    font-family: 'Itim', cursive;
+    width: 23%;
+    margin-left: 2%;
+    /* automatinis aukscio apskaiciavimas
+        tevui uzdeti overflow hidden
+     */
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+main {
+    /* nebepiesti background */
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+aside ul li {
+    margin-left: 40px;
+}
+
+
+.float-kaire {
+    float: left;
+}
