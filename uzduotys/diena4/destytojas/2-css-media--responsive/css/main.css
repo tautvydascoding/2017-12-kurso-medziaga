@@ -12,7 +12,7 @@ h2 {
     position: absolute;
     /* kiek nuo kaires nutoles*/
     right:  10px;
-    top: 70;
+    top: 0;
 }
 article {
     position: relative;
@@ -50,3 +50,41 @@ article:last-of-type {
 body {
     margin: 0;
 }
+
+/* ----for Tabled----- */
+/* max-width: 768px  -> nuo 0 iki 768px ekrano plocio */
+@media (max-width: 768px) {
+    .pirmas-straipsnis {
+        width: 45%;
+        margin-left: 3.333%
+    }
+    .antras-straipsnis {
+        width: 45%;
+        margin-left: 3.333%
+    }
+    .trecias-straipnis {
+        margin-left: 3.33%;
+        width: 93.3%;
+        margin-top: 30px;
+    }
+    /*
+    .pirmas-straipsnis,
+    .antras-straipsnis  {
+        width: 45%;
+    }
+    */
+/* !!! media reik uzdaryti su "}" */
+}
+/* =========for MOBILE======= */
+@media (max-width: 425px) {
+    .pirmas-straipsnis,
+    .antras-straipsnis {
+        width: 93.3%;
+        margin-top: 30px;
+    }
+
+}
+
+
+
+/*  */

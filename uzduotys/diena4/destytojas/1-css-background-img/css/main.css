@@ -1,0 +1,37 @@
+h2 {
+    color: blue;
+
+    /* fonas nuotrauka  */
+    background-image: url('../img/1.jpg');
+    background-size: contain;
+    background-repeat:no-repeat;
+    height: 100px;
+    width: 300px;
+
+    background-position-y: -25px;
+}
+/* hover, after, before - text */
+/* kai uzvedi pele */
+h2:hover {
+    background-color: red;
+}
+/* kai paspaudi */
+h2:active {
+    background-color: brown;
+}
+h2:after {
+    content: " $";
+}
+h2::before {
+    width: 50px;
+    height: 5px;
+    background-color: #000;
+    content: "";
+    margin-left: 100px;
+}
+
+h3:not(.raudonas) {
+    font-weight: 100;
+}
+
+/*  */
