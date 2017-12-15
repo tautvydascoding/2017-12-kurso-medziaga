@@ -1,0 +1,35 @@
+h2 {
+    color: blue;
+/*fonas nuotrauka  */
+background-image: url('../img/1.jpg');
+/* labai svarbu kelio nurodymas */
+background-size: contain;
+background-repeat: no-repeat;
+height: 100px;
+width: 300px;
+background-position-y: -25px;
+}
+h2:hover {
+    background-color: red;
+/* uzvedus pele keicia spalva, bet ka  */
+}
+h2:active {
+background-color: brown;
+/*kai paspaudi klika  */
+}
+h2::after {
+    content: " $";
+    /*tekstas po uzraso  */
+}
+h2::before {
+    width: 50px;
+    height: 10px;
+    background-color: #000;
+    content: "";
+    margin-left: 100px;
+    display: block;
+}
+h3:not(.raudonas) {
+    font-weight: 100;
+    /*tarp zodziu testas, isskiria tik raudona  */
+}

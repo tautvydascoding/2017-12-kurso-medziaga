@@ -1,0 +1,42 @@
+body {
+    background-image:url("q.jpg"
+}
+.navbar-nav li a:hover {
+    color: red;
+
+}
+
+h2 {
+    padding-top: 350px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 50px;
+letter-spacing: -0.2px;
+color: #030202;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+background-color: red;
+}
+a {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 22px;
+letter-spacing: -0.2px;
+color: #030202;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+position: absolute;
+}
+.carousel-indicators {
+    position: absolute;
+}
+.carousel-inner {
+    position: absolute;
+}
+#bandau {
+    z-index: -99;
+}
