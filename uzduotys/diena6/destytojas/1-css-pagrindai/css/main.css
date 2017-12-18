@@ -1,0 +1,42 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+/*------------------*/
+h1 {
+    color: red;
+}
+h1.mano {
+    color: blue;
+}
+
+.grazi.melynas.didele {
+    color: purple;
+}
+.melynas {
+    color: blue;
+}
+h1 {
+    color: brown;
+}
+a:hover {
+    background-color: blue;
+}
+a:active {
+    background-color: black;
+}
+a::after {
+    content: "...";
+    background-image: url();
+    display: inline-block;
+}
+.didele a {
+    color: orange;
+}
+/* arba */
+h2 { color:orange; }
+/* arba */
+header h2 { color:orange; }
+
+
+/*  */
