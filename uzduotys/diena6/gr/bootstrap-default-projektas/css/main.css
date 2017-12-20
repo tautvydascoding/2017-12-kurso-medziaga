@@ -1,0 +1,226 @@
+html {
+    height: 100%;
+}
+body {
+
+background: url(background.jpg) no-repeat;
+background-size: 1080px auto;
+background-position: right;
+height: 100%;
+
+}
+
+.row {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+
+    align-items: stretch;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'Spectral SC', serif;
+}
+#pirma, #antra, #trecia {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    border-radius: 0;
+
+    font-size: 30px;
+}
+
+}
+.bandau {
+
+    margin-right: 20px;
+}
+.bandau, .bandau1 {
+    display: flex;
+    flex-direction: column;
+}
+.container-fluid {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 120px;
+    padding-top: 100px;
+}
+.form-inline {
+    justify-content: space-around;
+}
+.col-lg-6 {
+    padding: 0;
+    margin: 0;
+}
+.emailas  {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+h1, p {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.button {
+    background: transparent;
+    border-radius: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    border: 1px solid black;
+    height: 70px;
+    width: 350px;
+}
+@media screen and (max-width: 992px) {
+    .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+    .form-group {
+        display: flex;
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+    h1 {
+        text-transform: uppercase;
+        font-size: 60px;
+        font-family: 'Spectral SC', serif;
+    }
+    #pirma, #antra, #trecia {
+        border: none;
+        border-bottom: 1px solid black;
+        background: transparent;
+        border-radius: 0;
+
+        font-size: 30px;
+    }
+
+
+    .bandau {
+
+        margin-right: 20px;
+    }
+    .bandau, .bandau1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-fluid {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 120px;
+        padding-top: 100px;
+
+    }
+    .form-inline {
+        justify-content: space-around;
+    }
+    .col-lg-6 {
+        padding: 0;
+        margin: 0;
+    }
+    .emailas  {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    h1, p {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .button {
+        background: transparent;
+        border-radius: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+        border: 1px solid black;
+        height: 70px;
+        width: 350px;
+    }
+
+
+
+.row:not(.qq) {
+    background: rgba(120, 144, 111, 0.23);
+    
+}
+
+}
+
+@media screen and (max-width: 481px) {
+
+
+
+    .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .form-group {
+        display: flex;
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+    h1 {
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: 'Spectral SC', serif;
+    }
+    #pirma, #antra, #trecia {
+        border: none;
+        border-bottom: 1px solid black;
+        background: transparent;
+        border-radius: 0;
+
+        font-size: 30px;
+    }
+
+
+    .bandau {
+
+        margin-right: 20px;
+    }
+    .bandau, .bandau1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-fluid {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 120px;
+        padding-top: 100px;
+        background: rgba(120, 144, 111, 0.23);
+    }
+    .form-inline {
+        justify-content: space-around;
+    }
+    .col-lg-6 {
+        padding: 0;
+        margin: 0;
+    }
+    .emailas  {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    h1, p {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .button {
+        background: transparent;
+        border-radius: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+        border: 1px solid black;
+        height: 30px;
+        width: 150px;
+
+
+}
+}
