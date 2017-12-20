@@ -9,7 +9,6 @@
 // sukurti kintamuosius (ir jiems priskirti reiksmes):
 // vardas, pavarde, amzius, atlyginimas
 
-
 //  2 UZDUOTIS
 // sukurti funkcija "printVardasPavardeAmzius()" , kuri atspausdina i konsole pirmos uzduoties kintamuosius
 
@@ -28,6 +27,3 @@
 // sukurti funkcija "printTekstas(x)" ,
 //  kuri atspausdina i konsole "x" reiksmes
 // iskviesti f-ja ir vietoj x irasyti koki nors teksta pvz: printTekstas( "Jokubo istorijos");
-
-
-
