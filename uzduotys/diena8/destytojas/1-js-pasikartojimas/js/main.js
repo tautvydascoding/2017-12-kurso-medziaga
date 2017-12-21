@@ -30,9 +30,9 @@ function printLName() {
 function printClass() {
     console.log(klase);
 }
-printClass();
 printLName();
 printName();
+printClass();
 
 //  03 UZDUOTIS
 // parasyti f-ja printVardasPavardeKlase(name, lname, klase)
@@ -41,6 +41,7 @@ printName();
 function  printVardasPavardeKlase(name, lname, klase) { // local
     console.log(name, lname, klase);
 }
+printVardasPavardeKlase("jonas", "jonauskas", 2  );
 printVardasPavardeKlase("jonas", "jonauskas", 2  );
 
 // ==============================================
@@ -53,8 +54,12 @@ printVardasPavardeKlase("jonas", "jonauskas", 2  );
 // UZDUOTIS
 // Issimeginti komandas:
 
-// document.write("Mano <b class='bg-info'> 222</b> ");
 
+// document.querySelector('h1').innerHTML = " <b>ANtraste</b>";
+
+
+// document.write(" <b class='bg-info'> 222 </b> ");
+//
 // window.alert("alabas");
 // alert("Viso");
 // console.log( window.vardas );
