@@ -12,7 +12,7 @@
 // pajamos 1500, mokesciai 2.5%, mokesciai2  1.5%
 
 // IF trumpesnis budas
-// (salyga) ? jei true : jei false;
+// (salyga) ? jei true : jei false;   // IDEA: komentaras
 // (salyga) ? pintVardas() : pintError();
 
 // ====================Scope====================
