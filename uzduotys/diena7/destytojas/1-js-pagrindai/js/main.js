@@ -50,7 +50,7 @@ console.log("mano amzius: ", amzius);
 //  2 UZDUOTIS
 // sukurti funkcija "printVardasPavardeAmzius()" , kuri atspausdina i konsole pirmos uzduoties kintamuosius
 
-function printVardasPavardeAmzius() {
+function printVardasPavardeAmzius( ) {
     console.log("vardas: ", vardas);
     console.log("pavarde: ", pavarde);
     console.log("amzius: ", ++amzius);
@@ -58,7 +58,7 @@ function printVardasPavardeAmzius() {
     console.log("atlyginimas: ", atlyginimas);
 }
 
-printVardasPavardeAmzius();
+printVardasPavardeAmzius( );
 
 //  3 UZDUOTIS
 // sukurti funkcija "printMetinisPajamuDydis()" ,
@@ -79,7 +79,8 @@ printMetinisPajamuDydis();
 // A) sukurti kintamuosius:  salis, miestas, adresas, pastoKodas
 // B) sukurti f-ja "printAddressData()",  kuri atspausdina i konsole visus siuos kintamuosius
 
-var 
+
+
 
 
 //  5 UZDUOTIS
@@ -87,6 +88,45 @@ var
 //  kuri atspausdina i konsole "x" reiksmes
 // iskviesti f-ja ir vietoj x irasyti koki nors teksta pvz: printTekstas( "Jokubo istorijos");
 
+function printTekstas(sk) {
+    console.log( sk );
+}
+printTekstas(122);    // var sk = 122;
+printTekstas(999);    // var sk = 999;
+printTekstas( "Labas krabas ");    // var sk = "Labas krabas";
+
+// 6
+// sukurti f-ja, kuri sudaugina du  paduotus skaicius
+function daugyba(x1, x2) {
+    var ats = x1 * x2;
+    // console.log("sudauginus skaicius: ", ats);
+    // arba
+    // console.log("sudauginus skaicius: ", x1 * x2  );
+    // arba
+        console.log("sudauginus skaicius: ", x1 , " ir ", x2 , " atsakymas yra = ", ats);
+}
+daugyba(50, 10); // 500
+daugyba(0, 10);
+daugyba(50, -10);
+daugyba(5, 0.5);
+daugyba(5, "labas");
+
+// 7 UZDUOTIS
+// F-ja kuri paskaiciuoja trikampio ilgaja krasine (Pitagoro teorema)
+// pitagoroTeorema(x, y)      x*x + y*y
+var ats = Math.sqrt( x );
+
+function pitagoroTeorema(x, y) {
+    var istrizaine = (x*x) + (y*y);
+    istrizaine = Math.sqrt(istrizaine);
+    console.log( istrizaine);
+    // arba
+    console.log(  Math.sqrt(  x*x + y*y )    );
+}
+pitagoroTeorema(2, 3);
+
+
+//
 
 
 

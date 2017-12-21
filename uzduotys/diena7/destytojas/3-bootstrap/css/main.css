@@ -15,3 +15,21 @@ h1 {
 .aukstis-500 {
     height: 500px;
 }
+
+nav li {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+nav,
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    width: 70%;
+}
+
+
+
+/*  */
