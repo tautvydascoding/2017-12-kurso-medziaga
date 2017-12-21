@@ -1,3 +1,6 @@
+console.log("Labas");
+
+
 
 
 // ===================pasikartoti===================
@@ -5,15 +8,61 @@
 // sukurti 2 kintamuosius  "vardas" lygius skirtingoms reiksmes ("tomas" ir "Jurgis")
 //   f-jos printName() viduje  pabandyti abu atspausdinti varda i konsole
 
-
+var vardas1 = "Tomas";
+function printName() {
+    var vardas2 = "Jurgis"
+    console.log(vardas1);
+    console.log(vardas2);
+}
+printName();
 
 // 02 UZDUOTIS
 // parasyti f-ja "getPelnas(pajamos, mokesciai, mokesciai2)", kuri apskaiciuoja pelna is  paduotu pajamu atimdama paduotus mokescius, ir poto vel atimdama mokescius2
 // pajamos 1500, mokesciai 2.5%, mokesciai2  1.5%
+function getPelnas(pajamos, mokesciai, mokesciai2) {
+    var pelnas = 0;
+    pelnas = pajamos - mokesciai - mokesciai2;
+    console.log(pelnas);
+}
+getPelnas(1500, 2.5, 1.5);
+
+function getPelnas2(pajamos, mokesciai, mokesciai2) {
+    var pelnas = 0;
+    pelnas = pajamos - mokesciai - mokesciai2;
+    return pelnas;
+}
+var x = getPelnas2(2000, 20, 1.5);
+console.log("pelnas: ", x);
 
 // IF trumpesnis budas
 // (salyga) ? jei true : jei false;
 // (salyga) ? pintVardas() : pintError();
+var x =10;
+var y = 0;
+( x == 999) ?   y = 1    :   y = -1;
+console.log(y);
+
+
+// iki 7 metu
+// "Pliusines varles"
+// nuo 7 iki 14
+// "Mini telefonai"
+// nuo 14 iki 18
+// "new Music App"
+// nuo 18 iki 24
+// "Stok i sauliu sajunga"
+// nuo 24 iki 65
+// "Pensijos kaupimas - zusiregistruok"
+// nuo 65
+// "kelione i Bristona"
+// sunkesne:
+// iki 7 metu ir nuo 65 metu papildomai isvesti "Sokoladiniai zuikuciai 20% nuolaida"
+var age = 5;
+if( age < 7) {
+    console.log("Pliusines varles");
+} else if ( age < 14){
+    console.log("mini telefonai");
+}
 
 // ====================Scope====================
 //   UZDUOTIS  A
