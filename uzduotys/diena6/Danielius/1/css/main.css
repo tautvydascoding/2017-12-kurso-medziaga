@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+.blue {
+color: blue;
+}
+/*pasirenkam butent ta elementa kuri keiciam*/
+header.blue {
+    color: orange;
+}
+.blue.big.ab {
+    color: green;
+}
+.big a {
+    color: red;
+    /*font-size: 32px;*/
+}
+a:hover {
+    background-color: #101010;
+    color: #fff;
+}
+a::after {
+    content: "...";
+}
