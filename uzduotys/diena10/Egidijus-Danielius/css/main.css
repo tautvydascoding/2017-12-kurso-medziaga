@@ -5,6 +5,7 @@
 /*------------------*/
 h1 {
     color: red;
+    text-align: center;
 }
 .aukstis-100 {
     height: 100px;
@@ -15,8 +16,32 @@ h1 {
 .aukstis-500 {
     height: 500px;
 }
+.vidurys {
+    position: absolute;
+    left: 420px;
+}
+.desine {
+    position: absolute;
+    right: 15px;
+}
+/* .apacia {
+    margin-left: 105px;
+    margin-right: 105px;
+} */
+.top {
+    margin-top: 5px;
+}
+img.apvalus {
+    border-radius: 50%;
+}
+.paprastas {
+    margin-top: 50px;
+}
+
+.mig {
+    margin-top: 260px;
+    margin-left: 306.75px;
 
 
-
-
+}
 /*  */
