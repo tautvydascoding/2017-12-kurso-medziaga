@@ -1,0 +1,39 @@
+/*body {
+    background-image: url("../img/writing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+h2 {
+    color: blue;
+/*fono ikelimas*/
+background-image: url("../img/1.jpg");
+background-size: contain ;
+background-repeat: no-repeat;
+height: 100px;
+width: 300px;
+background-position-y: -25px;
+}
+h2:hover {
+    background-color: red;
+    /*kai uzvedi pele*/
+}
+h2:active {
+    background-color: green;
+
+    /*kai paspaudi*/
+}
+h2:after {
+    content: " $";
+}
+h2:before {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    content: "";
+    margin-left: 0;
+    display: inline-block;
+}
+
+h3:not(.red) {
+    font-weight: 100;
+}

@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h2 {
+    /* tevui uzdeti position relative */
+    position: absolute;
+/*kiek nutoles nuo kaires*/
+    right: 0;
+    top: 0;
+
+}
+article{
+position: relative;
+}
+article {
+    width: 30%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: solid 1px #000;
+    background-color: #a1a1a1;
+    margin-left: 2.5%;
+}
+article:last-of-type {
+    margin-right: 2.5%;
+}
+/*reiktu po float'o sukurt*/
+.clear-fix {
+    clear: both;
+}
+p {
+    /*padding-top: 30px;*/
+}
+.rodyti-eiluteje{
+display: inline-block;
+width: 30%;
+}
+body {
+    margin: 0;
+}
+.f1 {
+    background-color: pink;
+    border-left: solid 2px #000;
+    border-bottom: solid 2px #000;
+    margin: 0;
+    width: 30%;
+    text-align: center;
+}
+.f2 {
+    color: white;
+    background-color: red;
+    border-left: solid 2px #000;
+    border-bottom: solid 2px #000;
+    margin: 0;
+    width: 30%;
+    text-align: center;
+}
+.f3 {
+    background-color: #fbfbc0;
+    border-left: solid 2px #000;
+    border-bottom: solid 2px #000;
+    margin: 0;
+    width: 30%;
+    text-align: center;
+}
