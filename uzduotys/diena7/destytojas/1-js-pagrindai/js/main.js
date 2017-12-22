@@ -50,7 +50,7 @@ console.log("mano amzius: ", amzius);
 //  2 UZDUOTIS
 // sukurti funkcija "printVardasPavardeAmzius()" , kuri atspausdina i konsole pirmos uzduoties kintamuosius
 
-function printVardasPavardeAmzius() {
+function printVardasPavardeAmzius( ) {
     console.log("vardas: ", vardas);
     console.log("pavarde: ", pavarde);
     console.log("amzius: ", ++amzius);
@@ -58,7 +58,7 @@ function printVardasPavardeAmzius() {
     console.log("atlyginimas: ", atlyginimas);
 }
 
-printVardasPavardeAmzius();
+printVardasPavardeAmzius( );
 
 //  3 UZDUOTIS
 // sukurti funkcija "printMetinisPajamuDydis()" ,
