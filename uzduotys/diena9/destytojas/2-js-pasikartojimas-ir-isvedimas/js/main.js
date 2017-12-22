@@ -57,13 +57,33 @@ console.log(y);
 // "kelione i Bristona"
 // sunkesne:
 // iki 7 metu ir nuo 65 metu papildomai isvesti "Sokoladiniai zuikuciai 20% nuolaida"
-var age = 5;
-if( age < 7) {
-    console.log("Pliusines varles");
+var age = 19;
+if( age < 7 || age > 65) {
+    console.log("Sokoladiniai zuikuciai 20% nuolaida");
+    if ( age > 65) {
+        console.log("kelione i BIrstona");
+    } else {
+        console.log("Pliusines varles");
+    }
 } else if ( age < 14){
     console.log("mini telefonai");
+} else if ( age < 18) {
+    console.log("new Music App");
+    // nuo 18 iki 24
+} else if ( (age >= 18) && (age < 24) ) {
+    console.log("Stokite i Sauliu sajunga");
+} else if (age < 64 ) {
+    console.log("Pensiju kaupimas");
+} else {
+    console.log("Kelione i Birstona");
 }
 
+// var lytis ="vyras";
+// if (lytis == "vyras") {
+//     //...
+// } else  {
+//     // ...
+// }
 // ====================Scope====================
 //   UZDUOTIS  A
 // sukurti funkcija "printDuomenys()" ,
@@ -74,21 +94,34 @@ if( age < 7) {
 //   UZDUOTIS  B
 //  pabandykite i konsole atspausdinti kintamaji "vardas"
 //  console.log( vardas) ;
-
+ indai = "keptuve";  // global
+kedes = "6 kedes";  // global
+var z = 10;         // global
+function printPavarde() {
+    var pavarde = "Petrov";   // local
+    var z = 12;     // local
+    console.log("z: ", z);    // 10
+    console.log("pavarde: ", pavarde);  // Petrov
+    indai = "5 puodai";   // ! jeigu be "var", tai sis kintamasis yra globalus
+}
+printPavarde();
+console.log("z:", z);
+// console.log(pavarde);   // error : undefined variable  pavarde
+console.log("indai:", indai);
 
 //================local && global=========
-//var x = "x global";
-//function testLocalVar() {
-//    var y = "y local";
-//    z = "z global";
-//    console.log("x", x);
-//    console.log("y", y);
-//    console.log("z", z);
-//}
-//testLocalVar();
-//console.log("x", x);
-//console.log("z", z);
-//console.log("y", y);  // error
+var x = "x global";
+function testLocalVar() {
+   var y = "y local";
+   z = "z global";
+   console.log("x", x);
+   console.log("y", y);
+   console.log("z", z);
+}
+testLocalVar();
+console.log("x", x);
+console.log("z", z);
+console.log("y", y);  // error
 
 
 //======================TEKSTO ISVEDIMAS===============
