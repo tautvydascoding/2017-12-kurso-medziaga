@@ -16,8 +16,8 @@ h1 {
     width: 30%;
     border: 2px solid blue;
     text-align: justify;
-    position: relative;
-    padding: 30;
+    position: relative
+    padding: 30
 }
 
 h2 {

@@ -1,0 +1,27 @@
+div {
+    height: 150px
+
+}
+header {
+    background-color: yellow;
+    height: 100px;
+}
+.col-lg-2 {
+    background-color: red;
+
+}
+footer {
+    background-color: green;
+    height: 100px;
+}
+.col-lg-10 {
+    background-color: gray;
+}
+
+col-lg-12 nav {
+    position: absolute;
+}
+.q {
+    height: 600px;
+    background-color: black;
+}
