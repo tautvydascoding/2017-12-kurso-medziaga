@@ -34,7 +34,20 @@
 // var age = 24;
 // gapal ji, turesiem isvesti tamtikra reklamos teksta
 
-
+var age = 24;
+if (age < 7 ) {
+console.log("Pliusines varles");
+} else if (age < 14) {
+    console.log("Mini telefonai");
+} else if (age < 18){
+    console.log("new Music App");
+} else if (age < 24){
+    console.log("Stok i sauliu sajunga");
+} else  if (age < 65){
+    console.log("Pensijos kaupimas - zusiregistruok");
+} else if ( ) {
+console.log("kelione i Bristona");
+}
 // Salygos:
 
 // iki 7 metu
