@@ -3,9 +3,14 @@
 // ===================pasikartoti===================
  // 01 UZDUOTIS
 // sukurti 2 kintamuosius  "vardas" lygius skirtingoms reiksmes ("tomas" ir "Jurgis")
+<<<<<<< HEAD
 //   f-jos printName() viduje pabandyti abu atspausdinti i konsole
 
 var vardas
+=======
+//   f-jos printName() viduje  pabandyti abu atspausdinti varda i konsole
+
+>>>>>>> a1da934c4cba9c5c885cced857af1f51a60d9363
 
 
 // 02 UZDUOTIS
@@ -13,7 +18,7 @@ var vardas
 // pajamos 1500, mokesciai 2.5%, mokesciai2  1.5%
 
 // IF trumpesnis budas
-// (salyga) ? jei true : jei false;
+// (salyga) ? jei true : jei false;   // IDEA: komentaras
 // (salyga) ? pintVardas() : pintError();
 
 // ====================Scope====================
