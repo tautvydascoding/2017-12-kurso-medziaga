@@ -130,12 +130,71 @@ function uzduotis12(medis) {
 uzduotis12('azuolas');
 // 2 A UZDUOTIS
 // sukurti f-ja printX(xx) i browser langa
-function (uzd2)
+function uzd2(i) {
+    document.getElementById("yolo").innerHTML += i;
+
+}
 // 2B UZDUOTIS
 // paleisti f-ja printX 100 kartu
-
+for (var i = 0; i < 100; i++) {
+uzd2('nebeeezinau <br>');
+}
 //  3 UZDUOTIS
 // paleisti f-ja printX 12 kartu ir atspausdinti <img ...
-
+function uzd3(y) {
+for (var i = 0; i < 12; i++) {
+uzd2('gal jau zinau <br>');
+}
+document.getElementById("yolo").innerHTML += y;
+}
+uzd3('<img src="+" alt="cia bus paveiksliukas">');
 // 4 UZDUOTIS
 // sukurti f-jas piestiEilute(x); spausdintiStulpeli(x);  i konsole
+
+    function uzd4() {
+    document.write('<br>');
+    for (var i = 0; i < 60; i++) {
+        document.write('-');
+}
+for (var i = 0; i < 60; i++) {
+    document.write('<br>|');}
+}
+uzd4();
+
+
+function konsole() {
+    for (var i = 0; i < 60; i++) {
+        console.log("-");
+}
+for (var i = 0; i < 60; i++) {
+    console.log('<br>|');}
+
+}
+konsole();
+
+// BANDAU NUO LENTOS LENTELE DARYTI //
+//LINIJA
+function linija() {
+    for (var i = 0; i < 80; i++) {
+    document.write('-');}
+}
+// Vardas pavarde
+
+// Zemyn stulpelis
+function stulpas() {
+    for (var i = 0; i < 20; i++) {
+    document.write('<br>|');}
+}
+linija();
+document.write('<br>Vardas           Pavarde<br>');
+linija();
+stulpas();
+// kiek uzdirbsi po 20m, nuo 680euriuku, kai pakyla po 2proc.
+ var km = 12;
+ var ma = 680;
+ var ap = 2;
+ for (var i=0; i < km; i++) {
+     padidejimas = (ma * ap) / 100;
+     ma = padidejimas + ma;
+ }
+ console.log("po 20m gausiu", ma);
