@@ -1,4 +1,4 @@
-Tartpinis testas 10% (html, css)
+﻿Tartpinis testas 10% (html, css)
 Tarpinis atsiskaitymas 10% (bootstrap)
 Tarpinis atsiskaitymas 10% (js, jquery)
 Galutinis testas 10%  (php, +)
@@ -10,6 +10,7 @@ Baigiamasis:
 0.7 responsive visas puslapis
 0.5 ajax (gauti duomenis)
 0.5 ajax (siusti duomenis)
+-0.5 BOOTSTRAP (jei bent 10 klasiunepanaudosi)
 0.5 MDL (bent 10 klasiu, is ju visos pagrindines grido)
 0.3 scss / sass / less - (kintamieji bent 5x, nesting bend 2x, hover)
 0.1-0.3 Dizainas (foreach different layout (Max: 1.2))
