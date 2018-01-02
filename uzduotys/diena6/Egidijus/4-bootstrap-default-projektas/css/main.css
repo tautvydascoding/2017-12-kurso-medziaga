@@ -15,12 +15,11 @@ h1 {
 .aukstis-500 {
     height: 500px;
 }
-.blokas {
-    width: 15%;
-    height: 30px;
-    display: inline-block;
-    font-size: 20px;
 
+.pastumtiIvirsu {
+    margin-top: -10px;
+    border-top: solid 10px #fff;
+}
 
 
 /*  */
