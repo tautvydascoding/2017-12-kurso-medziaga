@@ -1,0 +1,56 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+/*------------------*/
+
+.pic-row div {
+    margin-bottom: 20px;
+       
+}
+
+.pic-row img {
+    border-radius: 50%;
+}
+
+
+
+
+/* REKLAMA SECTION START *************************** */
+
+.reklama-container {
+    height: 250px;
+    background-color: rgb(94, 89, 89);
+    
+}
+
+.reklama-container row  {
+    height: 200px;
+    background-color: rgb(245, 106, 106);
+}
+
+.reklama-container img {
+    height: 150px;
+    
+}
+
+
+/* FOOTER SECTION START *************************** */
+
+footer {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer ul li {
+    list-style: none;
+    color: antiquewhite;
+}
+
+#brandas img {
+   height: 50px;
+}
+
+

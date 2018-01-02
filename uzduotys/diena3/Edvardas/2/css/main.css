@@ -1,0 +1,117 @@
+/* iskaiciuoja remelius i elemento ploti */
+*{
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color:red;
+    text-align: center;
+}
+/* tevui uzdeti position: realitive  */
+h2 {
+    position: absolute;
+/* kiek nuo kaires nutoles */
+    right: 0;
+    top: 0;
+    margin-top: 0;
+}
+/* elementai vienoje eiluteje
+ */
+ article{
+     position: relative;
+ }
+article{
+    width: 30%;
+    float: left;
+
+    border: solid 1px #000;
+    margin-left: 2.5%;
+    background-color: #a1a1a1;
+    /* atstumimas zemyn */
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+article:last-of-type{
+    margin-right: 2.5%;
+}
+/* naudojmas/isijungia float */
+.clear-fix{
+    clear:both;
+}
+.rodyti-eiluteje{
+display: inline-block;
+width: 30%;
+}
+body{
+    margin: 0;
+
+}
+.fonas1{
+    border: solid 1px;
+    background-color: blue;
+    margin-top: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.fonas2{
+    border: solid 1px;
+    background-color: red;
+    margin-top: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    borde
+
+}
+.fonas3{
+    border: solid 1px;
+    background-color: yellow;
+    margin-top: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+/* for tablet */
+/*  max-width: 768px-> nuo 0 iki 768px ekrano plocio*/
+@media (max-width: 768px) {
+    .pirmas-straipsnis{
+        width: 45%;
+        margin-left: 3.33%
+    }
+    .antras-straipsnis{
+            width: 45%;
+            margin-left: 3.33%
+        }
+    .trecias-straipsnis{
+    width: 93.3%;
+    margin-left: 3.33%;
+    margin-top: 30px;
+
+    }
+    }
+    /* for mobile */
+    @media (max-width: 425px) {
+        /* kitas budas panaudoti pasikartojinti veiksma */
+        .pirmas-straipsnis,
+        .antras-straipsnis{
+                width: 93.3%;
+                margin-left: 3.33%;
+                margin-top: 30px;
+
+            }
+        .trecias-straipsnis{
+        width: 93.3%;
+        margin-left: 3.33%;
+        margin-top: 30px;
+
+        }
+        }
+
+
+
+
+
+
+}

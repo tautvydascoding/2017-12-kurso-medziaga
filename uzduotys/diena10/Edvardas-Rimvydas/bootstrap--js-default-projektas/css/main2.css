@@ -1,0 +1,101 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+}
+.apvalus{
+    border-radius: 50%;
+}
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-300 {
+    height: 250px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+.aukstis-800{
+    height: 800px;
+}
+.logotipas{
+    width: 75px;
+    height: 78px;
+}
+.masina{
+width: 314px;
+height:179px;
+margin-top: 42px;
+border: solid black;
+
+
+}
+div.container-fluid{
+    background-image:url(http://bgfons.com/uploads/iron/iron_texture1049.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    position: relative;
+    border: solid;
+}
+/* mygtukas */
+#mygtukas{
+    position: relative;
+}
+.button{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    bottom: 16vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid darkgrey;
+    background-color: red;
+}
+p.button1{
+
+    margin-top: 9px;
+
+
+}
+/* mygtuko pabaiga */
+h1{
+    text-align: center;
+    color: #dc3545;
+    text-shadow: 0 0 0.1em #1b1e21, 0 0 0.2em #1b1e21, 0 0 0.3em#1b1e21,
+    0 0 0.4em #1b1e21,
+    0 0 0.6em #1b1e21, 0 0 0.8em #1b1e21, 0 0 1.0em #1b1e21,0 0 1.2em #1b1e21;
+}
+main.col-md-12{
+    background-image:url(http://static.hdw.eweb4.com/media/wallpapers_dl/1/21/207740-ferrari-logo-wallpaper-hd.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    position: relative;
+
+}
+/* footer */
+.logotipas2{
+    width:60px;
+    height:60px;
+}
+.apacia li a{
+    font-size: 30px;
+    text-transform: capitalize;
+    list-style-type: none;
+
+}
+.apacia{
+    list-style-type: none;
+}
+footer#footer{
+    background: url(http://hdwallpaperfun.com/wp-content/uploads/2014/11/Animal-Skin-Pattern-Wallpaper-High-Definition-60291.jpg);
+    background-size:cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+
+}
