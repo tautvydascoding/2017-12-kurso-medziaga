@@ -2,13 +2,16 @@
     /* iskaiciuoja remelius i elemento ploti */
     box-sizing: border-box;
 }
-/*------------------*/
+/*---------DANIELIAUS---------*/
 h1 {
     color: red;
     text-align: center;
 }
 .aukstis-100 {
     height: 100px;
+}
+.aukstis-150 {
+    height: 150px;
 }
 .aukstis-300 {
     height: 300px;
@@ -44,4 +47,83 @@ img.apvalus {
 
 
 }
+footer ul {
+padding-top: 15px;
+}
+footer ul li{
+    list-style-type: none;
+
+
+}
+li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+footer img {
+    border: solid 1px black;
+    vertical-align: middle;
+    display: inline;
+    /* margin-top: -12px; */
+}
+/* footer ul::after {
+    content: "Brand";
+} */
+.brand {
+    display: inline;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #000;
+}
+footer {
+    background-image: url(img/meska.jpg);
+}
+/* ------EGIDIJAUS----------------------- */
+.pirmasheaderiologotipas {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+}
+.antrasheaderiologotipas {
+    position: absolute;
+    right: 0px;
+}
+.treciasislogotipas {
+    object-fit: ;
+}
+
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+
+div.ul {
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+.eiluteje {
+    display: inline-block;
+    width: 15%;
+    height: 30px;
+    font-size: 20px;
+
+/* headerio-1-logo-desinen {
+    width: 15%;
+    /* : right; */
+} */
+
+/* li {
+    width: 15%;
+    float:left;
+    }
+clear-fix {
+    clear: both;
+} */
+
 /*  */
