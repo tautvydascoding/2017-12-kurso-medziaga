@@ -1,0 +1,151 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+/*---------DANIELIAUS---------*/
+h1 {
+    color: red;
+    text-align: center;
+}
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-150 {
+    height: 150px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+.vidurys {
+    position: absolute;
+    left: 420px;
+}
+.desine {
+    position: absolute;
+    right: 15px;
+}
+/* .apacia {
+    margin-left: 105px;
+    margin-right: 105px;
+} */
+.top {
+    margin-top: 5px;
+}
+img.apvalus {
+    border-radius: 50%;
+}
+.paprastas {
+    margin-top: 50px;
+}
+
+.mig {
+    margin-top: 260px;
+    margin-left: 306.75px;
+
+
+}
+footer ul {
+padding-top: 15px;
+}
+footer ul li{
+    list-style-type: none;
+
+
+}
+li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+footer img {
+    border: solid 1px black;
+    vertical-align: middle;
+    display: inline;
+    /* margin-top: -12px; */
+}
+/* footer ul::after {
+    content: "Brand";
+} */
+.brand {
+    display: inline;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #000;
+}
+
+/* ------EGIDIJAUS----------------------- */
+.pirmasheaderiologotipas {
+    position: absolute;
+    right: 15px;
+    top: 30px;
+}
+
+/* nuima headerio foto padingus */
+.padingas {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.spalva {
+    background-color: #FFC160;
+}
+
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+
+ul {
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+.eiluteje {
+    display: inline-block;
+    width: 15%;
+    height: 30px;
+    font-size: 20px;
+
+/* headerio-1-logo-desinen {
+    width: 15%;
+    /* : right; */
+}
+.antrafoto {
+    position: relative;
+    overflow: hidden;
+     /* opacity: 0.2;      */
+ }
+
+.mygtukas {
+    position: absolute;
+    font-size: 10px;
+    width: 80px;
+    height: 20px;
+    top: 50%;
+    left: 47%;
+    /* display: block;
+    margin: auto; */
+    /* position: center; */
+    /* align:center; */
+}
+
+
+*/
+
+/* li {
+    width: 15%;
+    float:left;
+    }
+clear-fix {
+    clear: both;
+} */
+
+/*  */

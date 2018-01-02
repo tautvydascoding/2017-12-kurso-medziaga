@@ -15,11 +15,17 @@ h1 {
 .aukstis-500 {
     height: 500px;
 }
-.blokas {
-    width: 15%;
-    height: 30px;
+
+nav li {
     display: inline-block;
-    font-size: 20px;
+    width: 33%;
+    text-align: center;
+}
+
+nav,ul{
+    margin:0;
+    pading:0;
+}
 
 
 
