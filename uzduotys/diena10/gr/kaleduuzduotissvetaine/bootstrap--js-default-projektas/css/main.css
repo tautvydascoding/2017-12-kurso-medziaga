@@ -2,7 +2,51 @@
     /* iskaiciuoja remelius i elemento ploti */
     box-sizing: border-box;
 }
-/*------------------*/
-.fab fa-aviato {
-    font-size: 50px;
+/* Paveiklsiukai */
+.col-lg-10 img {
+    height: 45px;
+    width: 45px;
+}
+.container {
+    background: #515684;
+    padding: 0;
+}
+/* HEADERIS */
+header {
+    background-color: yellow;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+ul li {
+
+        display: inline-block;
+        padding: 0 20px 0 20px;
+        font-size: 45px;
+        text-transform: uppercase;
+
+}
+.col-lg-2 img {
+    height: 100%;
+    width: 100%;
+}
+header .col-lg-10 {
+    display: flex;
+    align-items: center;
+}
+/*BODY-------------------------*/
+.col-md-4 {
+
+}
+/* REKLAMA --------------------------*/
+#reklama .container-fluid {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
 }
