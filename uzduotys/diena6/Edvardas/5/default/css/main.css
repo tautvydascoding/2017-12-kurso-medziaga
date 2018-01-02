@@ -1,0 +1,24 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+/*------------------*/
+h1 {
+    color: red;
+}
+.aukstis-100 {
+    min-height: 100px;
+}
+.aukstis-300 {
+    min-height: 400px;
+}
+.aukstis-500 {
+    min-height: 500px;
+
+}
+
+
+
+
+
+/*  */
