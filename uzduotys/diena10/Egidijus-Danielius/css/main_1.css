@@ -54,18 +54,17 @@ footer ul li{
     list-style-type: none;
 
 
-
 }
 li a {
     font-size: 24px;
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 footer img {
     border: solid 1px black;
     vertical-align: middle;
     display: inline;
-    margin-top: 1px;
+    /* margin-top: -12px; */
 }
 /* footer ul::after {
     content: "Brand";
@@ -74,17 +73,9 @@ footer img {
     display: inline;
     vertical-align: middle;
     font-size: 24px;
-    color: #fff;
+    color: #000;
 }
-/* <<<<<<< HEAD */
-footer {
-    background-image: url("../img/meska.jpg") ;
 
-    /* overflow: hidden; */
-}
-.pad0{
-    padding: 0;
-}
 /* ------EGIDIJAUS----------------------- */
 .pirmasheaderiologotipas {
     position: absolute;
@@ -100,7 +91,6 @@ footer {
 
 .spalva {
     background-color: #FFC160;
-/* >>>>>>> 381b4deca43a27ea1bc126b89d652c3d61b1176f */
 }
 
 .aukstis-100 {
@@ -113,9 +103,7 @@ footer {
     height: 500px;
 }
 
-
-header div ul {
-
+ul {
     padding-top: 30px;
     padding-left: 90px;
 }
@@ -125,14 +113,11 @@ header div ul {
     width: 15%;
     height: 30px;
     font-size: 20px;
-}
 
 /* headerio-1-logo-desinen {
     width: 15%;
     /* : right; */
-/* <<<<<<< HEAD */
-/* ======= */
-
+}
 .antrafoto {
     position: relative;
     overflow: hidden;
@@ -153,8 +138,7 @@ header div ul {
 }
 
 
-/* */
-/* >>>>>>> 381b4deca43a27ea1bc126b89d652c3d61b1176f */
+*/
 
 /* li {
     width: 15%;
