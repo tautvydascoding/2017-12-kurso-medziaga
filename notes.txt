@@ -1,5 +1,6 @@
-                true 1 "Taip"
+                
 var istekejus =
+		true 1 "Taip"
                 false 0 NULL undefined ""
 
 return NULL - naudojamas dazniausiai kai reiksme neteisinga 
