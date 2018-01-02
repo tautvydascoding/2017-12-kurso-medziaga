@@ -1,4 +1,4 @@
-console.log("labas");
+  console.log("labas");
 var adresas = "Kaunas, Savanoriu pr. 163";
 console.log( adresas );
 
@@ -53,4 +53,53 @@ console.log("metines pajamos:" , ats);
 // arba console.log("metines pajamos:" , atlyginimas *12); taip daro patyrusieji
 
 }
-metinispajamuatlyginimas()
+metinispajamuatlyginimas();
+
+//  4 UZDUOTIS
+// A) sukurti kintamuosius:  salis, miestas, adresas, pastoKodas
+// B) sukurti f-ja "printAddressData()",  kuri atspausdina i konsole visus siuos kintamuosius
+var salis = "lietuva"
+var miestas = "kaunas"
+var adresas = "Dubajau g 24"
+var pastoKodas = "568652"
+console.log(salis, miestas, adresas, pastoKodas)
+ function printAddressData(){
+    console.log("salis", salis)
+    console.log("miestas", miestas)
+    console.log("adresas", adresas)
+    console.log("pastoKodas", pastoKodas)
+}
+printAddressData();
+//  5 UZDUOTIS
+// sukurti funkcija "printTekstas(x)" ,
+//  kuri atspausdina i konsole "x" reiksmes
+// iskviesti f-ja ir vietoj x irasyti koki nors teksta pvz: printTekstas( "Jokubo istorijos");
+function printTekstas(sk){ // sukuria var =
+    console.log( sk );
+
+}
+printTekstas(122); // var sk=122
+
+//uzduotis 6 sukurti f-ja kuri sudaugina du duotus skaicius
+function printdaugyba(b1, y2) {
+    var ats = b1 * y2;
+//  console.log("sudauginus skaicius: ", b1 * x2);
+    console.log( "sudauginti skaicius: ", b1 , " ir ", y2 , "atsakymas yra = ", ats );
+}
+printdaugyba(50, 10);
+printdaugyba(0, 10);
+printdaugyba(50, -10);
+printdaugyba(5, 0.5);
+printdaugyba(5, "labas");
+
+//7 UZDUOTIS
+// f-ja kur ipaskaiciuoja trikampio ilaja krastine (pitagoro teorema)
+// pitagoro teorema (x,y)   x*x + y*y
+function pitagoroTeorema(x, y) {
+    var istrizaine = (x*x) + (y*y);
+    istrizaine = Math.sqrt(istrizaine);
+    console.log( istrizaine);
+    // arba
+    console.log(  Math.sqrt( x*x + y*y ) );
+}
+pitagoroTeorema(2, 3);

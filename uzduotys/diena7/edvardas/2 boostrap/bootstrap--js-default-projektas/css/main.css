@@ -7,16 +7,20 @@ h1 {
     color: red;
 }
 .aukstis-100 {
-    min-height: 100px;
+    height: 100px;
 }
 .aukstis-300 {
-    min-height: 400px;
+    height: 300px;
 }
 .aukstis-500 {
-    min-height: 500px;
-
+    height: 500px;
 }
-
+.aukstis-400 {
+    height: 400px;
+}
+.aukstis-600 {
+    height: 600px;
+}
 
 
 

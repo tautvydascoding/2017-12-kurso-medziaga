@@ -1,0 +1,150 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-300 {
+    height: 250px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+.aukstis-800{
+    height: 800px;
+}
+.logotipas{
+    width: 75px;
+    height: 78px;
+}
+body{
+    background-color: red;
+
+}
+/*------------------*/
+h4 {
+    color: #343a40;
+    font-family: 'Oswald', sans-serif;
+}
+
+main.row{
+background-image:url(https://ferrari-cdn.thron.com/delivery/public/image/ferrari/5274e72b-a57e-4532-9bf9-393d83e55404/ayyat7/std/1440x1440/ferrari-portofino);
+background-size:     cover;                      /* <------ */
+background-repeat:   no-repeat;
+background-position: center center;
+position: relative;
+}
+
+article p{
+
+font-family: 'Oswald', sans-serif;
+
+
+}
+.neon{
+    color: #dc3545;
+    text-shadow: 0 0 0.1em #1b1e21, 0 0 0.2em #1b1e21, 0 0 0.3em#1b1e21,
+    0 0 0.4em #1b1e21,
+    0 0 0.6em #1b1e21, 0 0 0.8em #1b1e21, 0 0 1.0em #1b1e21,0 0 1.2em #1b1e21;
+}
+
+
+
+/* reklamos paveiksliukas */
+section{
+    background: url(https://ferrari-cdn.thron.com/delivery/public/image/ferrari/302ae4b6-1108-4826-9d8e-10ec057df557/ayyat7/std/1366x1366/ferrari-portofino);
+    background-size:cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+position: relative;
+border-top: solid 3px black;
+}
+
+.button{
+
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    bottom: 30vh;
+
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.button1{
+
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    bottom: auto;
+
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.button1 a{
+    right: 45px;
+    position: absolute;
+    font-size:20px;
+    color: red;
+    text-shadow: 0 0 0.1em #1b1e21, 0 0 0.2em #1b1e21, 0 0 0.3em#1b1e21,
+    0 0 0.4em #1b1e21,
+    0 0 0.6em #1b1e21, 0 0 0.8em #1b1e21, 0 0 1.0em #1b1e21,0 0 1.2em #1b1e21;
+
+
+}
+h1{
+    text-align: center;
+    position: absolute;
+    top: 223px;
+    right:0;
+    left: 0;
+    color: red;
+    text-shadow: 0 0 0.1em #1b1e21, 0 0 0.2em #1b1e21, 0 0 0.3em#1b1e21,
+    0 0 0.4em #1b1e21,
+    0 0 0.6em #1b1e21, 0 0 0.8em #1b1e21, 0 0 1.0em #1b1e21,0 0 1.2em #1b1e21;
+}
+a.nav-link{
+    color: red;
+    text-shadow: 0 0 0.1em #1b1e21, 0 0 0.2em #1b1e21, 0 0 0.3em#1b1e21,
+    0 0 0.4em #1b1e21,
+    0 0 0.6em #1b1e21, 0 0 0.8em #1b1e21, 0 0 1.0em #1b1e21,0 0 1.2em #1b1e21;
+
+}
+/* footer */
+.logotipas2{
+    width:60px;
+    height:60px;
+}
+.apacia li a{
+    font-size: 30px;
+    text-transform: capitalize;
+    list-style-type: none;
+
+}
+.apacia{
+    list-style-type: none;
+}
+footer#footer{
+    background: url(http://hdwallpaperfun.com/wp-content/uploads/2014/11/Animal-Skin-Pattern-Wallpaper-High-Definition-60291.jpg);
+    background-size:cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
