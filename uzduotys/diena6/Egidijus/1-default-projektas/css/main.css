@@ -1,0 +1,40 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+/*------------------*/
+h1 {
+    color: red;
+}
+
+.melynas {
+    color: blue;
+}
+header.melynas {color: orange;}
+/* ___Kiti du budai_____ */
+h2 {color: orange;}
+header h2 {color: orange;}
+
+.grazi.melynas.didele{color: orange;}
+
+.didele a {
+    color: brown;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+a:active {
+    background-color: green;
+}
+
+a:after {
+    content: "...";
+    background-image: url();
+    display: inline-block;
+}

@@ -1,0 +1,127 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-weith: 900;
+    font-family: 'Bungee', cursive;
+}
+/*  --custom fontas--*/
+/* @font-face {
+    font-family: Sugalvotas;
+    src: url ("./font/Bungee-Regular.ttf");
+} */
+
+/* font-family: 'Sugalvotas', 'Bungee', cursive; */
+/*------------------*/
+h1 {
+    color: #fff;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    }
+
+html {
+    background-color: #a1a1a1;
+}
+body {
+    /* elemento centravimas teve */
+    /* ! reik plocio */
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: #FF80FF;
+    height: 80px; /* 5vh = 5% ekrano/tevo */
+}
+/* -----menu---- */
+nav {
+    /* background-color: orange; */
+    width: 60%;
+    display: inline-block;
+    padding-top: 8px;
+}
+nav li {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    font-size: 30px;
+    text-transform:capitalize;
+}
+ul {
+    padding-left: 0;
+}
+/* ----END-menu---- */
+#paieska {
+    /* background-color: red; */
+    display: inline-block;
+    width: 40%;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+#paieska input {
+    height: 24px;
+    border: none;
+    width: 70%;
+}
+button {
+    margin-left: 20px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    /* arba */
+    /* padding: 20px; */
+    /* arba */
+    padding: 8px 20px 8px 20px;
+    /* arba */
+    /* padding: 1px 20px 50px; */
+}
+
+/* -------MAIN - Pagrindiniam-------- */
+.fonas-ruzavas {
+    background-color: #FF80FF;
+}
+section {
+    width: 75%;
+    background-color: #fff;
+    padding: 40px 20px 30px 20px;
+}
+
+aside {
+    width: 23%;
+    margin-left: 2%;
+    /* automatinis aukščio apskaičiavimas: */
+    /* Dar tėvui reikia uždėti overflow: hidden */
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+
+.float-kaire {
+    float: left;
+}
+.clear-fix {
+    clear: both;
+}
+main {
+    /* automatinis aukščio nupjovimas */
+    overflow: hidden;
+    margin-top: 2%;
+}
+aside ul li {
+    margin-left: 40px;
+}
+footer {
+    background-color: #fff;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+/*  */

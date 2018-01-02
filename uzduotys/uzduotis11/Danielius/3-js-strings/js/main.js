@@ -35,7 +35,22 @@ console.log(sarasas);
 
 var txt = "Antanas";
 ilgis = txt.length;
-var z = txt.replace('A','s');
-console.log(z);
-var d = z.replace('s', 'a');
-console.log(d);
+
+//A
+var x = txt[0];
+var y = txt[txt.length -1 ];
+console.log(x, y);
+// txt[0] = y; neveikia nes tekstas ne masyvas
+
+var vidurys = txt.slice(1, txt.length -1 );
+txt = y + vidurys + x;
+console.log(txt);
+txt = "Antanas";
+var raides = txt.split(""); //paverciam teksta i masyva
+console.log(raides);
+var pradine = raides[0];
+var paskutine = raides[ txt.length -1 ];
+raides[0] = paskutine;
+raides[ txt.length -1 ] = pradine;
+txt = raides.join("");
+console.log(txt);

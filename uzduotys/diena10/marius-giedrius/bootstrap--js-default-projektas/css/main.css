@@ -1,7 +1,7 @@
 * {
     /* iskaiciuoja remelius i elemento ploti */
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 /*------------------*/
 
@@ -47,6 +47,10 @@ footer {
 footer ul li {
     list-style: none;
     color: antiquewhite;
+}
+
+#brandas img {
+   height: 50px;
 }
 
 
