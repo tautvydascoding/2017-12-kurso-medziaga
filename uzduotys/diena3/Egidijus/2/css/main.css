@@ -36,8 +36,8 @@ article {
 
 article {
     /*elementų išdėstymas vienoje eilutėje*/
-    width: 30%;
     float: left;
+    width: 30%;
 
     border: solid 1px #000;
     background: #a1a1a1;
