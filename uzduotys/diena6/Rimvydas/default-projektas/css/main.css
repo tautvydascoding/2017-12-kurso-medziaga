@@ -1,0 +1,17 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+/*------------------*/
+h1 {
+    color: red;
+}
+.melynas {
+  color: blue;
+}
+header.melynas {
+  color: orange;
+}
+a:hover {
+  background-color: blue;
+}

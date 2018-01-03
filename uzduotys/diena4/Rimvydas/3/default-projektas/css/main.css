@@ -1,0 +1,35 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+/*------------------*/
+h1 {
+    color: red;
+    text-align: center;
+
+}
+html{
+  background-color: #a1a1a1;
+}
+body{
+    width: 1100px;
+  /*elemento centravimas teve, reikia plocio!*/
+  margin-left: auto;
+  margin-right: auto;
+}
+header{
+  background-color: #FF80FF;
+  height: 80px; /*5vh=5% */
+}
+li {
+  display: inline-block;
+  width: 24%;
+}
+/* meniu */
+nav{
+  background-color: orange;
+  width: 60%;
+
+
+}
+}
