@@ -3,14 +3,8 @@
 // ===================pasikartoti===================
  // 01 UZDUOTIS
 // sukurti 2 kintamuosius  "vardas" lygius skirtingoms reiksmes ("tomas" ir "Jurgis")
-<<<<<<< HEAD
-//   f-jos printName() viduje pabandyti abu atspausdinti i konsole
-
-var vardas
-=======
 //   f-jos printName() viduje  pabandyti abu atspausdinti varda i konsole
 
->>>>>>> a1da934c4cba9c5c885cced857af1f51a60d9363
 
 
 // 02 UZDUOTIS
