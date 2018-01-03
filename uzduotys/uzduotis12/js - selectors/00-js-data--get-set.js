@@ -11,6 +11,8 @@ document.querySelectorAll("li");
 
 //===============get "data-..." attribute======================
 //We can set several distinct values for a single element and retrieve them later:
+var x = $('#preke').attr("data-id", 101);  // veikia
+
 $( "body" ).data( "foo", 52 );
 $( "body" ).data( "bar", { myType: "test", count: 40 } );
 $( "body" ).data( { baz: [ 1, 2, 3 ] } );
@@ -30,7 +32,7 @@ $( "body" ).data(); // { foo: 52, bar: { myType: "test", count: 40 }, baz: [ 1, 
 
     var article = document.getElementById('electriccars');
 
-    article.dataset.columns;     // "3"
+    article.dataset.id = 3;     // "3"
     article.dataset.indexNumber; // "12314"
     article.dataset.parent;     // "cars"
     // note: Each property is a string and can be read and written. In the above case setting article.dataset.columns = 5 would change that attribute to "5".

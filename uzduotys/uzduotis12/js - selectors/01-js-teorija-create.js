@@ -13,7 +13,7 @@ var elmText = document.createTextNode("lorem lorem lorem");
 console.log(elmText);
 
 // elemento idejima i kita elemneta
-//elmAside.appendChild(elmText);
+elmAside.appendChild(elmText);
 //console.log(elmAside);
 
 // ! sukurti elementai - buna dar neideti i window  document html puslapi
@@ -21,6 +21,6 @@ console.log(elmText);
 //=============
 //  objekto (Node) idejimas i HTML
 var elmH1 =  document.querySelector("h1");
-// document.body.insertBefore(elmAside, elmH1);
+document.body.insertBefore(elmAside, elmH1);
 // document.body.appendChild(elmAside);
 //==============
