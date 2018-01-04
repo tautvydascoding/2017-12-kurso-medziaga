@@ -53,9 +53,14 @@ $('img').on('click', function(){
 
 $('img').on('mouseenter', function(){
     $(this).fadeTo(1100,  0.25);
+
+    $(this).css('position', 'absolute');
     var stilius = {
-        width: "500px",
-        height: "500px"
+        top: 0,
+        right: "0px",
+        width: "5px",
+        height: "5px",
+        opacity: 0
     };
     $(this).animate(stilius, 4000);
 });
