@@ -2,6 +2,8 @@ var objektas = new objektas (name, age) {
     this.name = name,
     this.age = age;
 };
+
+
 var zmogus = objektas ("tomas", 21);
 
 //===============Create element==================
