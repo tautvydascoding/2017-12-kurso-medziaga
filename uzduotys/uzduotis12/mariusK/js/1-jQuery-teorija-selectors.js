@@ -10,7 +10,6 @@ jQuery(function( $ ) {
 
 //========array=============
 var x = [ 52, 97 ];
-
 $.each(x, function( index, value ) {
   console.log( index + ": " + value );
 });
@@ -27,39 +26,33 @@ $( "li" ).each(function( index ) {
 });
 //----js---
  <button onclick="x.forEach(myFunction)">Try it</button>
-
- var x = [ 52, 97 ];
+ var x = [ 52, 97 ]; 
 function myFunction(item,index,arr) {
-    console.log(arr1);
-   console.log(  index, item );
+    arr[index] = item + 1;
+    console.log( x);
 }
 //=============css===============
-// js
-// document.getElementById(id).style.property = new style
-// document.getElementById("p2").style.color = "blue";
-//
 $( "article > p" ).css( "border", "1px solid gray" );
 
 // arba
 
 var myCSS = {
     border: "1px solid gray",
-    color: "red",
-    font-size: "60px"
+    color: "red"
 };
 $( "article > p" ).css( myCSS );
 
 // advance: get curent width and height
-$( p ).css({
-	  width: function( index, value ) {
-		console.log("curent width:" + value);
-		return parseFloat( value ) * 1.2;
-	  },
-	  height: function( index, value ) {
-		console.log("curent height: " + value);
-		return parseFloat( value ) * 1.2;
-  }
-});
+// $( p ).css({
+// 	  width: function( index, value ) {
+// 		console.log("curent width:" + value);
+// 		return parseFloat( value ) * 1.2;
+// 	  },
+// 	  height: function( index, value ) {
+// 		console.log("curent height: " + value);
+// 		return parseFloat( value ) * 1.2;
+//   }
+// });
 //=============selectors kaip CSS=========
 
 // keliu elementu select'as (select h1 and h2 elements)

@@ -1,10 +1,10 @@
-var objektas = new objektas (name, age) {       
-          this.name=name,
-         this.age = age
+var objektas = new objektas (name, age) {
+    this.name = name,
+    this.age = age;
 };
 var zmogus = objektas ("tomas", 21);
 
-//===============Create element================== 
+//===============Create element==================
 var elementas0 = "<p> <button>Register</button> </p>";
 var elementas1 = "<p>" +
     "<button>Register</button>" +
@@ -19,7 +19,7 @@ var elementas2 = $("<p></p>").html("<button>Register</button>");  // note: If a 
 
 var elementas2 = document.createElement("p");
 elementas2.innerHTML = "<button>Register</button>";
-//================== 
+//==================
 // more complex
 $("<footer></footer>", {
    "class": "test",
@@ -97,7 +97,7 @@ if ( $('#MyElement').hasClass('MyClass') ) {}
 // arba
 $( 'p' ).is( ".blue, .red" );
 
-//$( "div"  ).one( "click", function() {
+//$( "div"  ).on( "click", function() {
 //   if ( $( this ).is( ":first-child" ) ) {
 //     $( "p" ).text( "It's the first div." );
 //   } else if ( $( this ).is( ".blue,.red" ) ) {
@@ -106,7 +106,7 @@ $( 'p' ).is( ".blue, .red" );
 //     $( "p" ).text( "It's Peter!" );
 //   }
 //   });
-// 
+//
 // <div></div>
 // <div class="blue"></div>
 // <div></div>
@@ -115,7 +115,7 @@ $( 'p' ).is( ".blue, .red" );
 // <div class="blue"></div>
 // <p>&nbsp;</p>
 
- 
+
 //=============set  attribute===============
 //$("h2", 'article').attr('id','a1234');
 
