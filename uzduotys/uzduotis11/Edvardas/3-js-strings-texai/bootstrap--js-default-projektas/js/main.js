@@ -39,7 +39,33 @@ var sarasas=tekstas.split(" ");
 console.log(sarasas);
 sarasas= sarasas.toString();
 //arba
-sarasas=sarasas.join(" ");
+// sarasas=sarasas.join(" ");
+
+
+//uzduotis sukeisti teksto pirma ir paskutine raides vietomis
 
 var txt='Antanas';
 ilgis=txt.lenght;
+
+//A
+var x=[0]
+var y=txt[txt.lenght-1];
+console.log(x,y);
+txt[0]=y;
+// txt[0]= y;!!taip neveikia,nes tekstas nera masyvas
+txt=y+vidurys+x;
+console.log(txt);
+//arba pervesti teksta i masyva
+var txt='Antanas';
+var raides=txt.split("");//teksta sudeda i masyva (kiekviena raide i atskria stalciu)
+console.log(raides);
+
+var pradine=raides[0];
+var paskutine=raides[txt.length-1];
+raides[0]=paskutine;
+console.log(raides);
+raides[txt.length-1]=pradine;
+console.log(raides);
+
+txt=raides.join("");
+console.log(txt);
