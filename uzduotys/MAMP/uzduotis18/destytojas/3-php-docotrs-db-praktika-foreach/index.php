@@ -18,9 +18,18 @@
                 require_once('./docotrs_db.php');
                 // pasitestavimui
 
-                $gydytojas = getDoctor(1); // is DB gavome mysql objekta
-                $gydytojas = mysqli_fetch_assoc( $gydytojas ); // mysql objekta verciam i masyva
+
+                for ($i=1; $i < 7; $i++) {
+                    $gydytojas = getDoctor( $i ); // is DB gavome mysql objekta
+                    $gydytojas = mysqli_fetch_assoc( $gydytojas ); // mysql objekta verciam i masyva
+
+                    include('./doctor-line.php');
+                }
+
+
+
              ?>
+
 
 
 
