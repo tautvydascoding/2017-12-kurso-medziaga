@@ -1,0 +1,49 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+/*------------------*/
+$plotis1: 100px;
+$plotis3: 300px;
+$plotis5: 500px;
+$pagrindineSpalva: red;
+$fonasraudona: red;
+$juod : #000;
+
+h1 {
+    color: $pagrindineSpalva;
+}
+.aukstis-100 {
+    height: $plotis1;
+}
+.aukstis-300 {
+    height: $plotis3;
+}
+.aukstis-500 {
+    height: $plotis5;
+}
+
+section {
+    background-color: $fonasraudona;
+    h2 {
+        color: white;
+        font: {
+            weight: 100;
+            size: 29px;
+        }
+        &:hover {
+            color: $juod; // mano juodos spalvos kintamasis
+        }
+    }
+    p {
+        color: blue;
+        font: {
+            weight: 300;
+            size: 16px;
+        }
+    }
+}
+
+
+
+/*  */

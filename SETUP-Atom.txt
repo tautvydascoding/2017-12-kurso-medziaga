@@ -11,6 +11,7 @@ linter-sass-lint
 beautify
 autoclose-html
 atom-autocomplete-php
+linter-php
 color-picker
 
 

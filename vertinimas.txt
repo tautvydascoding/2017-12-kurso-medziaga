@@ -26,7 +26,7 @@ iki 0.5 Email siuntimas, redirect i page, isvesti zinute
 3x 0.5 PHP duomenu ivedimas   (max 3 skirtingos lenteles)
 0.5 Registracija 
 =======
-0.5 PHP Login + PHP sesion
+0.5 PHP Login + PHP sesion (ir bent vienas session kintamaasis)
 
 //———————————————WP ————————————————————————
 0.4 uz meniu isvedima naudojant WP
