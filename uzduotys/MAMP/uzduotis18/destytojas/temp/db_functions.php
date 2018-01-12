@@ -124,16 +124,16 @@ function updateUser($nr, $vardas, $slaptazodis, $elPastas, $rights) {
      }
  }
 // mysql rezultatu objektas
-// $vartotojai = getUsers( );
-// // mysqli_fetch_assoc - obj pavercia i masyva
-//  $naudotojas = mysqli_fetch_assoc($vartotojai);
-//
-// if($naudotojas != NULL) {
-//     while ( $naudotojas ) {
-//          echo "Vartotojo vardas: " . $naudotojas['username'] . "<br>";
-//          $naudotojas = mysqli_fetch_assoc($vartotojai);
-//     }
-// }
+$vartotojai = getUsers( );
+// mysqli_fetch_assoc - obj pavercia i masyva
+ $naudotojas = mysqli_fetch_assoc($vartotojai);
+
+if($naudotojas != NULL) {
+    while ( $naudotojas ) {
+         echo "Vartotojo vardas: " . $naudotojas['username'] . "<br>";
+         $naudotojas = mysqli_fetch_assoc($vartotojai);
+    }
+}
 
 
  function test_input($data) {
