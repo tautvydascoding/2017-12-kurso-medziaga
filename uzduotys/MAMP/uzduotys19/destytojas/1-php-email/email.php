@@ -68,5 +68,5 @@ try {
 
 //============================
 if($arPavykoIssiusti) {
-    createDoctor($klientas, $klientoEmail, $klientoKlausimas);
+    // createDoctor($klientas, $klientoEmail, $klientoKlausimas);
 }
