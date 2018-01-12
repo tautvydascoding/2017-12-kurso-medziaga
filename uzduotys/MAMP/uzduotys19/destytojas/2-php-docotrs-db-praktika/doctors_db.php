@@ -14,8 +14,15 @@ define( 'DB_NAME', 'hospital12' );
 define( 'DB_USER', 'root' );
 define( 'DB_PASSWORD', 'root' );
 
-
 $prisijungimas = mysqli_connect( HOST, DB_USER, DB_PASSWORD, DB_NAME);  // jeigu pakeistas mysql portas, reik nurodyti ir savo Port'a, pvz: 8889
+
+// lietuviu raidziu  ijungimas
+// 1) html faile <meta charset="utf-8">
+// 2) DB-je stulpeliu 	Collation pakeiti i utf-8-lithuanian-ci
+// 3) mysqli_set_charset($prisijungimas, 'utf8');
+mysqli_set_charset($prisijungimas, 'utf8');
+// Note: Possible UTF-8 confusion
+// Because character set names in MySQL do not contain dashes, the string "utf8" is valid in MySQL to set the character set to UTF-8. The string "utf-8" is not valid, as using "utf-8" will fail to change the character set.
 
 function getPrisijungimas() {
     // !!! funciju viduje, neiseina pasiekti kintamuju, kurie aprasyti virs f-jos
@@ -113,8 +120,9 @@ function editeDoctor($nr, $vardas, $pavarde) {
 // $x = mysqli_fetch_assoc($x);
 // editeDoctor(3, 'Marija', $x['lname'] );
 //=================get doctors==========================
-function getDoctors( ) {
-    $sql_tekstas = " SELECT * FROM doctors   LIMIT 6;"  ;
+function getDoctors(  ) {
+    $sql_tekstas = " SELECT * FROM doctors   LIMIT 6 ; "  ;
+    // $sql_tekstas = " SELECT * FROM doctors, patients   LIMIT 6 where dontors.name=$x OR patients.lname=$x; "  ;
     $rezultatai = mysqli_query( getPrisijungimas(), $sql_tekstas);
     return $rezultatai;
 }
