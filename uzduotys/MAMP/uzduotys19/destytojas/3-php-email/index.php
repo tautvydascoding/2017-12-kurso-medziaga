@@ -14,35 +14,13 @@
          <div class="container">
 
             <h1>Isijunkite Konsole</h1>
-            <?php
-                require_once('./docotrs_db.php');
-                // pasitestavimui
-
-
-                for ($i=1; $i < 7; $i++) {
-                    $gydytojas = getDoctor( $i ); // is DB gavome mysql objekta
-                    $gydytojas = mysqli_fetch_assoc( $gydytojas ); // mysql objekta verciam i masyva
-
-                    include('./doctor-line.php');
-                }
-
-
-
-             ?>
-
-
-
-
-
-
-
 
          <!-- end container -->
          </div>
 
 
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+        
          <!-- !!! mano javaScript visada failo apacioje ir pats apatinis -->
          <script src="./js/main.js">
               // komentaras   var y;

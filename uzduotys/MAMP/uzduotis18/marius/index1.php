@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="lt">
     <head>
         <meta charset="utf-8">
@@ -14,35 +17,33 @@
          <div class="container">
 
             <h1>Isijunkite Konsole</h1>
-            <?php
-                require_once('./docotrs_db.php');
-                // pasitestavimui
+        <?php 
+        require_once("./dbFunctions.php");
 
+        
+        for ($i=1; $i < 5 ; $i++) { 
+            # code...
+            $gydytojas = getDoctor($i);
+            $gydytojas = mysqli_fetch_assoc($gydytojas);
+            include('gyd_eilute.php');
+        }
 
-                for ($i=1; $i < 7; $i++) {
-                    $gydytojas = getDoctor( $i ); // is DB gavome mysql objekta
-                    $gydytojas = mysqli_fetch_assoc( $gydytojas ); // mysql objekta verciam i masyva
+        // echo "<h2>" . $gydytojas['name'] . "</h2>";
+               
+        ?>
 
-                    include('./doctor-line.php');
-                }
+        <?php           ?>
 
+        
 
-
-             ?>
-
-
-
-
-
-
-
+        
 
          <!-- end container -->
          </div>
 
 
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+        
          <!-- !!! mano javaScript visada failo apacioje ir pats apatinis -->
          <script src="./js/main.js">
               // komentaras   var y;
