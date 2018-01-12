@@ -19,12 +19,18 @@
             $vienasGydytojas = mysqli_fetch_assoc( $gydytojai  ); // paverciame i masyva (associatyvus) viena eilute is DB
 
             // print_r( $vienasGydytojas );
+            while ( $vienasGydytojas ) :
          ?>
-            <a href="./doctor-template.php/?id=1">
-                 <?php  echo $vienasGydytojas['name']. " " . $vienasGydytojas['lname'];  ?>
-            </a>
+                    <a href="./doctor-template.php/?id=<?php   echo     $vienasGydytojas['id'];  ?>">
+                         <?php  echo $vienasGydytojas['name']. " " . $vienasGydytojas['lname'];  ?>
+                    </a>
+                    <br>
 
-
+            <?php
+                    // 
+                    $vienasGydytojas = mysqli_fetch_assoc( $gydytojai  ); // paverciame i masyva (associatyvus) viena eilute is DB
+            endwhile;
+             ?>
 
          <!-- end container -->
          </div>
