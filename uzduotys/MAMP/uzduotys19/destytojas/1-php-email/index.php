@@ -14,6 +14,27 @@
          <div class="container">
 
             <h1>Isijunkite Konsole</h1>
+            <form class="" action="email.php" method="get">
+                <label for="vardas">Jusu Vardas</label> <br>
+                <input type="text" name="vardas" value=""> <br>
+
+                <label for="elpastas">Email</label> <br>
+                <input type="email" name="elpastas" value="" required> <br>
+
+                <label for="klausimas">Jusu klausimas</label> <br>
+                <textarea name="klausimas" rows="8" cols="80" required></textarea>
+
+                <input type="hidden" name="kodas" value="serial:1500">
+
+                <input type="submit" name="" value="Klausti">
+                <!-- or -->
+                <button type="submit" name="button"> Klausti </button>
+            </form>
+<?php
+        // print_r( $_GET ); // global PHP masyvas
+        // print_r( $_POST);  // global PHP masyvas
+ ?>
+
 
          <!-- end container -->
          </div>
