@@ -13,37 +13,17 @@
     <body>
          <div class="container">
 
-            <h1>Isijunkite Konsole</h1>
-            <?php
-                require_once('./docotrs_db.php');
-                // pasitestavimui
-                // deleteDoctor(13);
+         <?php
+            require_once('./doctors_db.php');
+            $gydytojai = getDoctors(); // mysql objektas su visais gygytojais
+            $vienasGydytojas = mysqli_fetch_assoc( $gydytojai  ); // paverciame i masyva (associatyvus) viena eilute is DB
 
-                $gydytojas = getDoctor(1); // is DB gavome mysql objekta
-                $gydytojas = mysqli_fetch_assoc( $gydytojas ); // mysql objekta verciam i masyva
-             ?>
+            // print_r( $vienasGydytojas );
+         ?>
+            <a href="./doctor-template.php/?id=1">
+                 <?php  echo $vienasGydytojas['name']. " " . $vienasGydytojas['lname'];  ?>
+            </a>
 
-             <section class="row">
-                 <div class="col-md-6   bg-warning aukstis-100">
-                     <?php  echo "<h2>" . $gydytojas['name']. "</h2>";  ?>
-                 </div>
-                 <div class="col-md-6   bg-danger aukstis-100">
-                     <?php  echo "<h2>" . $gydytojas['lname']. "</h2>"; ?>
-                 </div>
-             </section>
-
-             <?php
-                 $gydytojas22 = getDoctor(2); // is DB gavome mysql objekta
-                 $gydytojas22 = mysqli_fetch_assoc( $gydytojas22 ); // mysql objekta verciam i masyva
-             ?>
-             <section class="row">
-                 <div class="col-md-6   bg-warning aukstis-100">
-                     <?php  echo "<h2>" . $gydytojas22['name']. "</h2>";  ?>
-                 </div>
-                 <div class="col-md-6   bg-danger aukstis-100">
-                     <?php  echo "<h2>" . $gydytojas22['lname']. "</h2>"; ?>
-                 </div>
-             </section>
 
 
          <!-- end container -->

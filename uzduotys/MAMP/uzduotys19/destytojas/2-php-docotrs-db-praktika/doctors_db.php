@@ -113,8 +113,10 @@ function editeDoctor($nr, $vardas, $pavarde) {
 // $x = mysqli_fetch_assoc($x);
 // editeDoctor(3, 'Marija', $x['lname'] );
 //=================get doctors==========================
-
-
-
+function getDoctors( ) {
+    $sql_tekstas = " SELECT * FROM doctors   LIMIT 6;"  ;
+    $rezultatai = mysqli_query( getPrisijungimas(), $sql_tekstas);
+    return $rezultatai;
+}
 
 //
