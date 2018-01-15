@@ -12,6 +12,7 @@
     </head>
     <body>
          <div class="container">
+             <section>
 
          <?php
             require_once('./doctors_db.php');
@@ -27,11 +28,15 @@
                     <br>
 
             <?php
-                    // 
+                    //
                     $vienasGydytojas = mysqli_fetch_assoc( $gydytojai  ); // paverciame i masyva (associatyvus) viena eilute is DB
             endwhile;
              ?>
 
+             </section>
+             <aside class="bg-danger aukstis-100">
+                 aaaa
+             </aside>
          <!-- end container -->
          </div>
 
