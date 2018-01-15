@@ -1,0 +1,393 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+
+.aukstis-100 {
+    height: 80px;
+}
+.aukstis-200{
+    height: 200px;
+}
+.aukstis-250{
+    height: 250px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-400{
+    height: 400px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+/*------------------*/
+
+h1{
+    text-align: center;
+    color:#444444;
+
+}
+h2{
+    text-align: center;
+    font-size: 22px;
+    color: #444444;
+
+}
+body {
+    font-family: 'Dosis', sans-serif !important;
+    /* elemento centravimas teve */
+    /* ! reik plocio */
+    /* width: 1100px;
+    margin-left: auto;
+    margin-right: auto; */
+}
+.mainlogo{
+    height: 35px;
+    width: 161px;
+}
+
+
+
+#container-fluid{
+    height:576px;
+}
+#katinas{
+    background-image: url(http://kilburndigital.com/wp-content/uploads/2014/08/blue-cat-3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+
+}
+
+
+/* <!--mygtukas--> */
+div.header-content{
+    position: absolute;
+    top: 40%;
+    left:120px;
+
+}
+h1.mygtukas{
+    text-decoration: none;
+    color: white;
+
+}
+a{
+
+    color: #67b8dd !important;
+}
+/* mygtukas enda */
+
+
+
+
+/* paslaugu logo */
+img.video1{
+    width: 37px;
+    height: 37px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+}
+img.foto1{
+    width: 37px;
+    height: 37px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+}
+img.web1{
+    width: 37px;
+    height: 37px;
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+}
+h2 img.video2{
+    width: 37px;
+    height: 37px;
+
+}
+h2 img.camera2{
+    width: 37px;
+    height: 37px;
+
+}
+h2 img.web2{
+    width: 37px;
+    height: 37px;
+
+}
+/* paslaugu logo end */
+
+#col2{
+    background-color: rgba(170,170,170,0.1);
+
+
+
+}
+#col1{
+    background-color: rgba(170,170,170,0.1);
+
+
+
+}
+.w-copyright{
+    text-align: center;
+    color: #666666;
+}
+
+footer{
+background-color: #222222;
+}
+/* slaideris */
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 360px;
+  height: 300px;
+  background: white;
+  text-align: center;
+  line-height: 300px;
+}
+
+
+button.control_prev{
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+button.control_next{
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+button.control_prev:hover, button.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+button.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+button.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+/* nuotrauku slaider*/
+#slider1 {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider1 ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider1 ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 360px;
+  height: 300px;
+  background: black;
+  text-align: center;
+  line-height: 300px;
+}
+#slider1 ul li img{
+    width: 100%;
+        height: auto
+}
+/* 1 slaiderio butonai */
+button.control_prev1{
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+button.control_next1{
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+button.control_prev1:hover, button.control_next1:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+button.control_prev1 {
+  border-radius: 0 2px 2px 0;
+}
+
+button.control_next1 {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+/* apie mus css ======================================*/
+video#bgVideo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+#video-container {
+    position: absolute;
+}
+#video-container {
+    top:0%;
+    left:0%;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+video {
+    position:absolute;
+    z-index:0;
+}
+video.fillWidth {
+    width: 100%;
+}
+div.tekstas{
+    position: absolute;
+}
+#googlemap{
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+        overflow: hidden;
+    }
+    #googlemap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    #submit{
+        border-radius: .25rem;;
+    }
+    #susi{
+        border-radius: .25rem;;
+        text-decoration: none;
+    }
+    /* Registracija============================== */
+    #progressbar2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Registracija{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#loginLOGO{
+    background-image: url(http://kilburndigital.com/wp-content/uploads/2014/08/blue-cat-3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+
+
+}
+#userlogo{
+    width: 25px;
+    height: 25px;
+}
+#logoutlogo{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+/*  */
