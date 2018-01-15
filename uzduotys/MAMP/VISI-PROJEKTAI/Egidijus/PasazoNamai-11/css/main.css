@@ -1,0 +1,171 @@
+* {
+  /* iskaiciuoja remelius i elemento ploti */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* background: url(./img_/background.jpg) center no-repeat; */ }
+
+/*------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  /* position:relative; */
+  background: url(../img/background.jpg);
+  /* position: absolute; */
+  background-size: 100%;
+  /* opacity : 0.7; */
+  /* background: url(../img/background.jpg) center no-repeat; */
+  /* background: url(../img/background.jpg) 100% no-repeat; */ }
+
+.fonoFoto {
+  opacity: 0.5;
+  width: 100%;
+  /* position:absolute; */ }
+
+.meniuFonas {
+  background-color: #392527;
+  color: #D0CBCC;
+  /* position: fixed;
+    top: 0; */ }
+
+a {
+  /* text-decoration: $savybe2; */
+  color: #C5C8C6;
+  float: left; }
+
+sh a {
+  /* text-decoration: $savybe2; */
+  color: blue;
+  /* float: left; */ }
+
+/* Meniu sarasiukui*/
+i {
+  padding-top: 10px;
+  padding-left: 20px; }
+
+/* .logo{
+    margin-right: 30px;
+} */
+.skaidrus {
+  background-color: white;
+  opacity: 0.7;
+  height: 2200px;
+  margin-top: 20px;
+  padding-left: 40px;
+  color: black;
+  position: absolute; }
+
+.skaidrus {
+  /* z-index: 10; */ }
+
+iframe {
+  /* position: absolute; */
+  /* align-items: center; */
+  margin-left: 6%;
+  /* decoration: $savybe2; */
+  /* z-index: 20; */ }
+
+nav {
+  /* overflow: hidden; */
+  /* background-color: #333; */
+  /* position: sticky; */
+  /* top: 0; */
+  /* width: 100%; */ }
+
+/* vektoriniu ikonu parametrai */
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr; }
+
+/* Toglerio ikoneles parametrai */
+.navbar-light .navbar-toggler {
+  color: #D0CBCC;
+  border-color: #D0CBCC;
+  /* color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1); */ }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #D0CBCC; }
+
+.navbar-light .navbar-toggler {
+  color: #D0CBCC;
+  border-color: #D0CBCC; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke=' $spalva1' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+
+.navbar-light .navbar-text {
+  color: #D0CBCC; }
+
+/* Paie6kos mygtuko parametrai */
+.btn-outline-success {
+  color: #D0CBCC;
+  background-color: transparent;
+  background-image: none;
+  border-color: #D0CBCC; }
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #D0CBCC;
+  border-color: #D0CBCC; }
+
+.btn-outline-success:focus, .btn-outline-success.focus {
+  -webkit-box-shadow: 0 0 0 3px #D0CBCC;
+  box-shadow: 0 0 0 3px #D0CBCC; }
+
+.btn-outline-success.disabled, .btn-outline-success:disabled {
+  color: #D0CBCC;
+  background-color: transparent; }
+
+.btn-outline-success:active, .btn-outline-success.active,
+.show > .btn-outline-success.dropdown-toggle {
+  color: #D0CBCC;
+  background-color: #D0CBCC;
+  border-color: #D0CBCC; }
+
+h1 {
+  text-align: center; }
+
+#myCarousel {
+  margin-top: 60px; }
+
+.meniuKontaktai {
+  /* color: $spalva1; */
+  color: white;
+  background-color: #392527;
+  text-align: right; }
+
+/* .fiksuojam {
+    position: fixed;
+} */
+/* .FloatKaire {
+float: left;
+} */
+/* .clear-fix { */
+/* clear: both; */
+/* } */
+/*
+header li {
+    width: 15%;
+    font-size: $dydis;
+    float: left;
+} */
+/* .blokas {
+    width: 15%;
+    height: 30px;
+    display: inline-block;
+    font-size: $dydis;
+} */
+/* display: inline-block; */
+/* li {
+        width: 30%;
+    } */
