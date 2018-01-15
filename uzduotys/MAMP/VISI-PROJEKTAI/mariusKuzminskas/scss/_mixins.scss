@@ -1,0 +1,61 @@
+@mixin antPaveikslo() {
+    transition: 1.2s;
+    &:hover {
+        filter: opacity(0.7);
+    }
+}
+
+@mixin textShadow() {
+    transition: 2s;
+    &:hover {
+        text-shadow: 20px 20px 8px rgb(0, 0, 0);
+    }
+}
+
+@mixin boxShadow() {
+    box-shadow: 4px 4px 12px rgb(58, 58, 58);
+    transition: 1.2s;
+    &:hover {
+        box-shadow: 10px 10px 23px rgb(124, 124, 124);
+    }
+}
+
+@mixin imgShadow() {
+    transition: 1.2s;
+    // transform: scale(1.15);
+            &:hover {
+                 filter: drop-shadow(0px 0px 15px black);
+                // transform: scale(1);
+            }
+}
+
+@mixin imgScale() {
+    transition: 1.2s;
+    transform: scale(1.15);
+            &:hover {
+                //  filter: drop-shadow(0px 0px 15px black);
+                transform: scale(1);
+            }
+}
+
+
+
+@mixin navBorderFill() {
+    transition: 1.2s;
+        border: 2px solid rgba(245, 222, 179, 0);
+        border-radius: 0 15px 0 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        &:hover {
+            border: 2px solid wheat;
+            // transform: scale(1.1, 1.1);
+            background-color: rgba(252, 241, 215, 0.63);
+        }
+}
+
+@mixin lineDiv() {
+    width: 30%;
+    border: 2px solid rgba(39, 36, 36, 0.808);
+}
+
+
