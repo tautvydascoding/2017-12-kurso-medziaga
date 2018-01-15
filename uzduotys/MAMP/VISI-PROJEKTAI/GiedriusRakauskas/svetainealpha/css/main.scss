@@ -1,0 +1,300 @@
+//===========SCSS=======================//
+$juoda: #181818;
+$baltaRyski: #ffffff;
+$baltaTekstas: #F8F8FF;
+$menuFont: 'Libre Barcode 39 Extended Text';
+$textFont: 'Cinzel';
+//============================================//
+* {    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+// ==============KINTAMIEJI==================
+.balta {
+    background-color: $baltaRyski;
+}
+.apieMane, .data-caption, .kontaktai p {
+    font-family: $textFont;
+    text-transform: uppercase;
+}
+// ============HEADER=====================]
+.headeris
+    .col-lg-12 {
+    position:absolute;
+    opacity: 1;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    }
+    .material-icons .fa {
+    padding-top: 50px;
+    padding-right: 20px;
+    color: $baltaRyski;
+	}
+
+    /* ==============SLIDERIs=================== */
+.fullscreen {
+    z-index: 1;
+    img {
+        width: 100%;
+        height: 100vh;
+
+    }
+}
+#ikonos .col-lg-12 {
+    position: inherit;
+}
+body {
+    background-color: $juoda;
+    min-height: inherit;
+}
+#galerijaaa img {
+    padding-top: 30px;
+}
+h3 {
+    font-family: 'Stardos Stencil' !important;
+    font-size: 5rem !important;
+    text-transform: uppercase;
+
+}
+.antraSlide {
+    padding-top: 30px;
+}
+.treciaSlide {
+    padding-top: 650px;
+}
+.indicators .active {
+    background-color: $juoda !important;
+}
+/* =============MENU =================== */
+.menu .container {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    z-index: 999;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 70px;
+    height: 10px;
+    margin: 6px 0;
+    transition: 0.4s;
+    background-color: #fff;
+
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.menu {
+    position: absolute;
+    z-index: 998;
+}
+a .container {
+    width: 90px;
+}
+.side-nav {
+font-size: 60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+
+}
+ul a, a:hover, a:visited, a:link, a:active {
+    color: inherit;
+
+}
+.juoda {
+    background-color: $juoda;
+}
+.side-nav li {
+    padding-left: 50px;
+    font-family: $menuFont;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.button-collapse .container {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+/* ===============menu hoverio efektai============== */
+// img {
+//     display: none;
+// }
+// .matomas {
+//     display: block !important;
+//     position: absolute;
+//     z-index: 999;
+//     width: 50%;
+//     float: left
+// }
+// .nematomas {
+//     display: none;
+// }
+
+/* =====================APIE MANE============== */
+p {
+    color: $baltaTekstas;
+    font-size: 40px;
+    line-height: 50px;
+}
+.apieMane .row {
+    margin-top: 45px;
+}
+/* ===========================KONTAKTAI===================== */
+textarea {
+    height: 10rem !important;
+}
+.btn {
+    background-color: $baltaRyski !important;
+    color: $juoda !important;
+}
+.kontaktai {
+    color: $baltaTekstas;
+}
+.mysqlGalerija img {
+    padding-top: 30px;
+}
+
+.kontaktai
+    .virsutine {
+        margin-top: 150px;
+    }
+    .pavyko {
+        color: #006600 !important;
+    }
+ .row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
+    .fa {
+        margin-right: 15px;
+    }
+
+}
+// ============APIE MANE===========================
+.slideIn {
+      width: inherit;
+      height: inherit;
+      animation-name: hide, slideIn;
+      animation-duration: 1s;
+      animation-timing-function: ease-in;
+      animation-iteration-count: 1;
+      -moz-animation-name: hide, slideIn;
+      -moz-animation-duration: 1s;
+      -moz-animation-timing-function: ease-in;
+      -moz-animation-iteration-count: 1;
+      -webkit-animation-name: hide, slideIn;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-timing-function: ease-in;
+      -webkit-animation-iteration-count: 1;
+      -o-animation-name: hide, slideIn;
+      -o-animation-duration: 1s;
+      -o-animation-timing-function: ease-in;
+      -o-animation-iteration-count: 1;
+      opacity: 1;
+  }
+  .slideIn.first {
+
+      animation-delay: 0s, 0s;
+      -moz-animation-delay: 0s, 0s;
+      -webkit-animation-delay: 0s, 0s;
+      -o-animation-delay: 0s, 0s;
+  }
+  .slideIn.second {
+
+      animation-delay: 0s, 0.5s;
+      -moz-animation-delay: 0s, 0.5s;
+      -webkit-animation-delay: 0s, 0.5s;
+      -o-animation-delay: 0s, 0.5s;
+  }
+  .slideIn.third {
+
+      animation-delay: 0s, 1s;
+      -moz-animation-delay: 0s, 1s;
+      -webkit-animation-delay: 0s, 1s;
+      -o-animation-delay: 0s, 1s;
+  }
+  @keyframes hide
+  {
+      from { opacity: 0; } to { opacity: 0 }
+  }
+  @-moz-keyframes hide
+  {
+      from { opacity: 0; } to { opacity: 0 }
+  }
+  @-webkit-keyframes hide
+  {
+      from { opacity: 0; } to { opacity: 0 }
+  }
+  @-o-keyframes hide
+  {
+      from { opacity: 0; } to { opacity: 0 }
+  }
+  @keyframes slideIn
+  {
+        0% { opacity: 0; left: -100px; }
+        1% { opacity: 1; left: -40px; }
+      100% { opacity: 1; left:  0; }
+  }
+  @-moz-keyframes slideIn
+  {
+        0% { opacity: 0; left: -100px; }
+        1% { opacity: 1; left: -40px; }
+      100% { opacity: 1; left:  0; }
+  }
+  @-webkit-keyframes slideIn
+  {
+        0% { opacity: 0; left: -100px; }
+        1% { opacity: 1; left: -40px; }
+      100% { opacity: 1; left:  0; }
+  }
+  @-o-keyframes slideIn
+  {
+        0% { opacity: 0; left: -100px; }
+        1% { opacity: 1; left: -40px; }
+      100% { opacity: 1; left:  0; }
+  }
+.kontaktaiFonas {
+    height: 100vh;
+    position: absolute; //kad nebutu virsuj juodos linijos
+    img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0.4;
+    }
+    // ::after {
+    //     background-image: url('../img/kontaktai.jpg') !important;
+    //     background-repeat: no-repeat;
+    //     background-size: 100% 100%;
+    //
+    // }
+}
+// ======================SELLOUTAS==========================
+// ==========================ANIMATION===========================
+
+
+// ===========================FIXED===========================
+.fixed
+{
+    position: fixed !important;
+    top: 20px;
+}

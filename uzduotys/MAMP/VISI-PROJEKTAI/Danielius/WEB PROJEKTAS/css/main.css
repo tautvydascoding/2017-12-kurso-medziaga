@@ -1,0 +1,151 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  min-height: 100%; }
+
+article {
+  position: relative; }
+
+h1 {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 230px;
+  left: 15px; }
+
+.pirmas {
+  background-image: url("../img/vest2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.nuovirsaus {
+  margin-top: 64px; }
+
+/* body {
+    background-image: url("../img/vest.jpg") ;
+background-repeat: no-repeat;
+background-size: cover;
+
+} */
+.aukstis-100 {
+  height: 100px; }
+
+.aukstis-150 {
+  height: 150px; }
+
+.aukstis-300 {
+  height: 300px; }
+
+.aukstis-500 {
+  height: 500px; }
+
+.aukstis-600 {
+  height: 600px; }
+
+.pad-l {
+  padding-left: 5px; }
+
+.pad-r {
+  padding-right: 5px; }
+
+.pasl {
+  overflow: hidden; }
+
+a:hover {
+  text-decoration: none;
+  color: #f0f0f0; }
+
+.fontas {
+  font-size: 35px;
+  font-weight: bold; }
+
+.logoright {
+  position: absolute;
+  right: 20px; }
+
+.fonas1 {
+  background-image: url("../img/prog1.jpg");
+  background-size: cover;
+  opacity: 0.8; }
+
+.rslides, .rslides1 {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.rslides, .rslides1 li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0; }
+
+.rslides, .rslides1 li:first-child {
+  position: relative;
+  display: block;
+  float: left; }
+
+.rslides, .rslides1 img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0; }
+
+.maps {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%; }
+
+aside {
+  margin-bottom: -9999px;
+  padding-bottom: 9999px; }
+
+#form {
+  color: white; }
+  #form textarea {
+    height: 30%; }
+
+div .mgt {
+  text-align: center;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 35%;
+  top: 84%;
+  border: solid 2px #0097a7;
+  border-radius: 25%;
+  color: white;
+  background-color: #0097A7;
+  width: 45%; }
+  div .mgt :hover {
+    color: #101010; }
+
+.fonasp {
+  background-color: #FF80AB; }
+
+.round img {
+  border-radius: 10%; }
+
+.preke img {
+  float: left; }
+
+h3 {
+  background-color: #282C34;
+  opacity: 0.8;
+  color: white; }
+
+footer p, a {
+  color: white; }
