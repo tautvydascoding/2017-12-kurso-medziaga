@@ -1,0 +1,70 @@
+* {
+    /* iskaiciuoja remelius i elemento ploti */
+    box-sizing: border-box;
+}
+/*------------------*/
+$plotis1: 100px;
+$plotis3: 300px;
+$plotis5: 500px;
+
+$pagrSpalva: red;
+$spalva1: white;
+$spalva2: black;
+$spalva3: blue;
+
+$fontas1: 29px;
+$fontas2: 16px;
+$fontas3: 36px;
+$fontas4: 14px;
+
+$svoris1: 600;
+$svoris2: 300;
+
+h1 {
+    color: $pagrSpalva;
+}
+
+section{
+    background-color: $pagrSpalva;
+    h2 {
+        color: $spalva1;
+        font:{
+            weight: $svoris1;
+            size: $fontas1;
+        }
+        &:hover {
+            color: $spalva2;
+        }
+    }
+}
+p {
+    color: $spalva3;
+    font-size: $fontas2;
+    weight: $svoris2;
+}
+
+aside{
+    color: $pagrSpalva;
+    font-size: $fontas3;
+    weight: $svoris1;
+    p {
+        lor: $fontas4;
+        weigth: $svoris2;
+    }
+}
+
+
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-500 {
+    height: 500px;
+}
+
+
+
+
+/*  */
