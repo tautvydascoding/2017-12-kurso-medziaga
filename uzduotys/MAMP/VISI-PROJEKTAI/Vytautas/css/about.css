@@ -1,0 +1,181 @@
+.aukstis400px{
+    height: 320px;
+}
+.aukstis33prc{
+    height: 33%;
+}
+.aukstis40prc{
+    height: 40%;
+}
+.aukstis50prc{
+    height: 50%;
+}
+.aukstis100prc{
+    height: 100%;
+}
+.aukstis-auto{
+    height: auto;
+}
+.aukstis-80prc{
+    height: 80%;
+}
+.about-main-row{
+    height: 90%;
+
+}
+.about-col-img{
+    text-align: right;
+}
+.about-col-img img{
+    max-width: 95%;
+    max-height: 100%;
+    margin-right: 10%;
+}
+.about-col-text{
+    text-align: justify;
+    width: 70%;
+    margin-top:10%;
+    font-size:1.1em;
+    font-weight: 300;
+}
+.home-navigation-bar-row{
+    position: relative;
+    top:0;
+    z-index: 1000;
+    width: 100%;
+    right: 0;
+    border-bottom: 1px solid #868e96;
+}
+.home-navigation-bar-col{
+    padding: 0;
+}
+.home-container-fluid{
+    overflow-x: hidden;
+}
+
+.home-container-first-col{
+    padding: 0;
+    position: relative;
+    height: 100vh;
+}
+.aukstis100px{
+    height: 100px;
+}
+.home-nav-bar-col{
+    padding: 0;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right:5%;
+    padding-right: 25px;
+}
+.nav-item{
+    color:black!important;
+    font-weight: 300;
+}
+.home-navbar-logo{
+    margin-left:5%;
+    text-decoration: none;
+}
+
+.navbar-toggler{
+    margin-left:auto;
+    margin-right:  5%;
+}
+.navbar-collapse{
+    text-align: right;
+}
+
+.home-footer-row{
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+.home-footer-col{
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    width: 100%;
+    border-top:1px solid #868e96;
+}
+.home-footer-col p{
+        width:30%;
+        margin: 0;
+        display: inline-block;
+        font-size:1em;
+}
+.home-footer-col p img{
+    width: 20px;
+}
+
+/* .about-col-img{
+    background: url('C:/Users/asus/Desktop/Coding school/baigiamasis2/media/images/about/lady.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+/******** @MEDIA start *********/
+@media (max-width: 768px){
+    .home-footer-col p{
+        display: block;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size:.8em;
+    }
+    .home-footer-col p img{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .home-empty-col{
+        display: none;
+    }
+    .home-empty-main-row {
+        display: none;
+    }
+    .home-main-main{
+        overflow: hidden;
+    }
+    .home-col-md-4-1 p,.home-col-md-4-2 p,.home-col-md-4-3 p,.home-col-md-4-4 p{
+        display: block;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left:50%;
+        top:50%;
+        font-size:50px;
+        color:white;
+        font-weight: 300;
+        text-shadow: 1px 1px 1px black;
+        text-align: center;
+        line-height: 1;
+    }
+    .home-slaptas{
+        display: none;
+    }
+    .home-navbar-logo{
+        margin-left:10%;
+    }
+
+    .about-col-img{
+        display: none;
+    }
+    .about-col-text{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .chytas{
+        display: none;
+    }
+
+
+
+}
+/******** @MEDIA end *********/

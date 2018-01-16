@@ -1,0 +1,175 @@
+.aukstis400px{
+    height: 320px;
+}
+.aukstis33prc{
+    height: 33%;
+}
+.aukstis40prc{
+    height: 40%;
+}
+.home-navigation-bar-row{
+    position: relative;
+    top:0;
+    z-index: 1000;
+    width: 100%;
+    right: 0;
+}
+.home-navigation-bar-col{
+    padding: 0;
+}
+.home-container-fluid{
+    overflow-x: hidden;
+}
+
+.home-container-first-col{
+    padding: 0;
+    position: relative;
+}
+.aukstis100px{
+    height: 100px;
+}
+.home-nav-bar-col{
+    padding: 0;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right:5%;
+    padding-right: 25px;
+}
+.nav-item{
+    color:black!important;
+    font-weight: 300;
+}
+.home-navbar-logo{
+    margin-left:5%;
+    text-decoration: none;
+}
+
+.navbar-toggler{
+    margin-left:auto;
+    margin-right:  5%;
+}
+.navbar-collapse{
+    text-align: right;
+}
+
+.home-footer-row{
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.home-footer-col{
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    width: 100%;
+    border-top:1px solid #868e96;
+}
+.home-footer-col p{
+        width:30%;
+        margin: 0;
+        display: inline-block;
+        font-size:1em;
+}
+.home-footer-col p img{
+    width: 20px;
+}
+
+/* Darbai.css STARTS here */
+.darbai-photo-gallery{
+    border-left: 6px solid white;
+    border-top: 6px solid white;
+    margin: 0;
+}
+
+
+
+.darbai-every-column{
+    background: url('../media/images/home/home88.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-right: 6px solid white;
+    border-bottom: 6px solid white;
+}
+.home-unique{
+    background: url('../media/images/home/rsz_flat2.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-right: 6px solid white;
+    border-bottom: 6px solid white;
+}
+.darbai-every-column p{
+    display: none;
+}
+.darbai-every-column:hover{
+    opacity: .7;
+}
+.darbai-every-column:hover p,.darbai-every-column:hover p,.darbai-every-column:hover p,.darbai-every-column:hover p{
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left:50%;
+    top:50%;
+    font-size:50px;
+    color:white;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    line-height: 1;
+    transition: 4s;
+}
+/* Darbai.css ENDS here */
+
+@media (max-width: 768px){
+    .home-footer-col p{
+        display: block;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size:.8em;
+    }
+    .home-footer-col p img{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .home-empty-col{
+        display: none;
+    }
+    .home-empty-main-row {
+        display: none;
+    }
+    .home-main-main{
+        overflow: hidden;
+    }
+    .home-col-md-4-1 p,.home-col-md-4-2 p,.home-col-md-4-3 p,.home-col-md-4-4 p{
+        display: block;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left:50%;
+        top:50%;
+        font-size:50px;
+        color:white;
+        font-weight: 300;
+        text-shadow: 1px 1px 1px black;
+        text-align: center;
+        line-height: 1;
+    }
+    .home-slaptas{
+        display: none;
+    }
+    .home-navbar-logo{
+        margin-left:10%;
+    }
+}
+
+
+
+                                /* *** Carousel STARS here *** */
+
+
+                                /* ** Carousel ENDS here   ** */

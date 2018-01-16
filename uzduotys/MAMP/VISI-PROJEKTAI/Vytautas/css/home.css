@@ -1,0 +1,191 @@
+.aukstis400px{
+    height: 320px;
+}
+.home-navigation-bar-row{
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    width: 100%;
+    right: 0;
+}
+.home-navigation-bar-col{
+    padding: 0;
+}
+.home-container-fluid{
+    overflow-x: hidden;
+}
+
+.home-container-first-col{
+    padding: 0;
+    position: relative;
+}
+.aukstis100px{
+    height: 100px;
+}
+.home-nav-bar-col{
+    padding: 0;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right:5%;
+    padding-right: 25px;
+}
+.nav-item{
+    color:black!important;
+    font-weight: 300;
+}
+.home-navbar-logo{
+    margin-left:5%;
+    text-decoration: none;
+}
+
+.navbar-toggler{
+    margin-left:auto;
+    margin-right:  5%;
+}
+.navbar-collapse{
+    text-align: right;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.home-main-second-part{
+    background: url('../media/images/home/rsz_evening22.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.home-empty-main-row{
+    height: 100px;
+}
+
+.home-footer-row{
+    height: auto;
+}
+.home-footer-col{
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    width: 100%;
+    border-top:1px solid #868e96;
+}
+.home-footer-col p{
+        width:30%;
+        margin: 0;
+        display: inline-block;
+        font-size:1em;
+}
+.home-footer-col p img{
+    width: 20px;
+}
+.home-footer-img-1,.home-footer-img-2,.home-footer-img-3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.carousel-caption h3{
+    font-size:50px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px black;
+}
+.home-main-row p{
+    display: none;
+}
+.home-col-md-4-1:hover,.home-col-md-4-2:hover,.home-col-md-4-3:hover,.home-col-md-4-4:hover{
+    -webkit-box-shadow: 0px 0px 29px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 29px 9px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 29px 9px rgba(0,0,0,0.75);
+    z-index:1000;
+}
+.home-col-md-4-1:hover p,.home-col-md-4-2:hover p,.home-col-md-4-3:hover p,.home-col-md-4-4:hover p{
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left:50%;
+    top:50%;
+    font-size:50px;
+    color:white;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    line-height: 1;
+}
+
+.home-col-md-4-1{
+    background: url('../media/images/home/rsz_flat2.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.home-col-md-4-2{
+    background: url('../media/images/home/rest11.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.home-col-md-4-3{
+    background: url('../media/images/home/int2.jpg');
+    background-position: bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.home-col-md-4-4{
+    background: url('../media/images/home/home88.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 768px){
+    .home-footer-col p{
+        display: block;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size:.8em;
+    }
+    .home-footer-col p img{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .home-empty-col{
+        display: none;
+    }
+    .home-empty-main-row {
+        display: none;
+    }
+    .home-main-main{
+        overflow: hidden;
+    }
+    .home-col-md-4-1 p,.home-col-md-4-2 p,.home-col-md-4-3 p,.home-col-md-4-4 p{
+        display: block;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left:50%;
+        top:50%;
+        font-size:50px;
+        color:white;
+        font-weight: 300;
+        text-shadow: 1px 1px 1px black;
+        text-align: center;
+        line-height: 1;
+    }
+
+}
+
+                                /* *** Carousel STARS here *** */
+
+
+                                /* ** Carousel ENDS here   ** */
